@@ -206,6 +206,23 @@ class AllSubtopicGroupTests(unittest.TestCase):
         self.assertTrue(any("no_unique_group_owner" in p for p in problems))
 
 
+
+class NestedFrontMatterGuardTests(unittest.TestCase):
+    def test_nested_permalink_keys_do_not_overwrite_top_level(self):
+        text = (
+            "---\n"
+            "title: idx\n"
+            "permalink: /two-evidence-trails/\n"
+            "cross_links:\n"
+            "  permalink: /technical-context/\n"
+            "  other: value\n"
+            "---\n"
+            "body" + """unused"""
+        )
+        front = parse_front_matter(text)
+        self.assertEqual(front["permalink"], "/two-evidence-trails/")
+
+
 class FrontMatterTests(unittest.TestCase):
     def test_parse_front_matter_reads_quoted_values(self):
         text = "---\ntitle: 'Sub-Topic Index'\npermalink: /group/\n---\n\nbody\n"

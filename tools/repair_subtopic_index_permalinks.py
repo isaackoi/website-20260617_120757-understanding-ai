@@ -34,11 +34,20 @@ PERMALINK_LINE_RE = re.compile(r"(?m)^permalink:\s*(\S+)\s*$")
 
 
 def parse_front_matter(text: str) -> dict:
+    """Top-level front matter only: indented (nested) keys are ignored.
+
+    Generated article front matter nests blocks (e.g. cross-link maps) that
+    can carry their own ``permalink:`` items; accepting them silently
+    overwrote the real top-level permalink and manufactured phantom
+    duplicate-permalink verdicts.
+    """
     match = FRONT_MATTER_RE.match(text)
     if not match:
         return {}
     front = {}
     for line in match.group(1).splitlines():
+        if not line or line[0] in " 	-#":
+            continue
         if ":" not in line:
             continue
         key, _, value = line.partition(":")
