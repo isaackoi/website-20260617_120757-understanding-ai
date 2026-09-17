@@ -759,7 +759,7 @@ For this reason, accent-related performance gaps are valuable evidence when eval
    Source: pmc.ncbi.nlm.nih.gov  
    Title: Read more  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7149386/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7149386/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Racial disparities in [automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) speech recognition - PMC - NIHby A Koenecke · 2020 · Cited by 1147 — We found that all five ASR system...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Racial disparities in [automated]({{ 'decisions/' | relative_url }}) speech recognition - PMC - NIHby A Koenecke · 2020 · Cited by 1147 — We found that all five ASR system...</p></details>
 
 5.<a id="endnote-5"></a>
    Source: arxiv.org  
@@ -795,7 +795,7 @@ For this reason, accent-related performance gaps are valuable evidence when eval
 11.<a id="endnote-11"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/1912.06670" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1912.06670</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Common Voice: A Massively-[Multilingual](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) Speech Corpusby R Ardila · 2019 · Cited by 3040 — Abstract:The Common Voice corpus is a massively...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Common Voice: A Massively-[Multilingual]({{ 'language-bias/' | relative_url }}) Speech Corpusby R Ardila · 2019 · Cited by 3040 — Abstract:The Common Voice corpus is a massively...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: ar5iv.labs.arxiv.org  
@@ -820,7 +820,7 @@ For this reason, accent-related performance gaps are valuable evidence when eval
 16.<a id="endnote-16"></a>
    Source: mozilla.org  
    Link:<a href="https://www.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer nofollow">https://www.mozilla.org/en-US/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Internet for people, not profit (US)Jun 30, 2025 — Firefox: Get the gold standard for browsing with [speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;), privacy and control...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Internet for people, not profit (US)Jun 30, 2025 — Firefox: Get the gold standard for browsing with [speed]({{ 'speed/' | relative_url }}), privacy and control...</p></details>
 
 17.<a id="endnote-17"></a>
    Source: discourse.mozilla.org  
@@ -886,7 +886,7 @@ For this reason, accent-related performance gaps are valuable evidence when eval
 28.<a id="endnote-28"></a>
    Source: easychair.org  
    Link:<a href="https://easychair.org/publications/preprint/gFLz" target="_blank" rel="noopener noreferrer nofollow">https://easychair.org/publications/preprint/gFLz</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Common Voice and Accent Choice: Data Contributors Self-...7 Feb 2023 — Datasets used as inputs for training [speech models](&amp;#123;&amp;#123; &#x27;failure-modes/&#x27; | relative_url &amp;#125;&amp;#125;) often represen...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Common Voice and Accent Choice: Data Contributors Self-...7 Feb 2023 — Datasets used as inputs for training [speech models]({{ 'failure-modes/' | relative_url }}) often represen...</p></details>
 
 29.<a id="endnote-29"></a>
    Source: kaggle.com  

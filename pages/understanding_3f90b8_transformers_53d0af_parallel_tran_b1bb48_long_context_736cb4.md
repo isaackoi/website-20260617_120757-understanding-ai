@@ -831,7 +831,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanism Complexity Analysis | by Mridul RaoComplexity analysis is about estimating how the time required to execute an algori...</p></details>
 
 15.<a id="endnote-15"></a>
-   Source: [machine-learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;)-made-simple.medium.com  
+   Source: [machine-learning]({{ 'machine-learning/' | relative_url }})-made-simple.medium.com  
    Link:<a href="https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede" target="_blank" rel="noopener noreferrer nofollow">https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>vs Mamba vs Linear Attention: Who Wins Long...Transformer inference today faces a fundamental bottleneck — the quadratic cost of attention...</p></details>
 
@@ -915,7 +915,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
    Source: mbrenndoerfer.com  
    Title: The Transformer: Attention Is All You Need  
    Link:<a href="https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>InteractiveJun 7, 2025 — A comprehensive guide to the Transformer architecture, including self-attention mechanisms, [multi-head](&amp;#123;&amp;#123; &#x27;multi-heads/&#x27; | relative_url &amp;#125;&amp;#125;) attention...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>InteractiveJun 7, 2025 — A comprehensive guide to the Transformer architecture, including self-attention mechanisms, [multi-head]({{ 'multi-heads/' | relative_url }}) attention...</p></details>
 
 31.<a id="endnote-31"></a>
    Source: github.com  

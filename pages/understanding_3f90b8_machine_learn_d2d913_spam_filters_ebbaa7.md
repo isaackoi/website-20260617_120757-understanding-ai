@@ -825,7 +825,7 @@ This is why spam filtering is often used to explain machine learning. The task i
 12.<a id="endnote-12"></a>
    Source: spamtitan.com  
    Link:<a href="https://www.spamtitan.com/microsoft-365-spam-filter/" target="_blank" rel="noopener noreferrer nofollow">https://www.spamtitan.com/microsoft-365-spam-filter/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Improve Office 365 Spam FilterMicrosoft 365 email spam filtering works by comparing inbound mail against IP [block lists](&amp;#123;&amp;#123; &#x27;block-lists/&#x27; | relative_url &amp;#125;&amp;#125;) of known s...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Improve Office 365 Spam FilterMicrosoft 365 email spam filtering works by comparing inbound mail against IP [block lists]({{ 'block-lists/' | relative_url }}) of known s...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: hostgator.com  

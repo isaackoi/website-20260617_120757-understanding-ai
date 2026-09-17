@@ -791,7 +791,7 @@ In high-risk AI systems, meaningful human review is therefore not defined by the
 
 2.<a id="endnote-2"></a>
    Source: nist.gov  
-   Title: Trustworthy and [responsible AI](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) | NIST  
+   Title: Trustworthy and [responsible AI]({{ 'responsible-ai/' | relative_url }}) | NIST  
    Link:<a href="https://www.nist.gov/trustworthy-and-responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/trustworthy-and-responsible-ai</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Trustworthy and responsible AI | NIST...</p></details>
 
@@ -847,7 +847,7 @@ In high-risk AI systems, meaningful human review is therefore not defined by the
 
 11.<a id="endnote-11"></a>
    Source: youtube.com  
-   Title: [Understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) the importance of explainable AI in education | Francisco Bellas  
+   Title: [Understanding]({{ 'understanding/' | relative_url }}) the importance of explainable AI in education | Francisco Bellas  
    Link:<a href="https://www.youtube.com/watch?v=jbo_wS9xQm8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jbo_wS9xQm8</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>How Skylar Advisor Delivers Answers You Can Trust and Verify...</p></details>
 

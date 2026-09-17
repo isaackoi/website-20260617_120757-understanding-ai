@@ -842,7 +842,7 @@ The key insight is not that chatbots are deceptive by design. Rather, conversati
    Source: linkedin.com  
    Title: Linked In AI is so hot right now, but how does it actually work?  
    Link:<a href="https://www.linkedin.com/posts/meghanrduffy_ai-is-so-hot-right-now-but-how-does-it-actually-activity-7455994487941689344-CeXx" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/meghanrduffy_ai-is-so-hot-right-now-but-how-does-it-actually-activity-7455994487941689344-CeXx</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>May 1, 2026 — [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) creates new content. Like text, images, or code based on learned patterns, you interact with these AI tools t...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>May 1, 2026 — [Generative AI]({{ 'generative-ai/' | relative_url }}) creates new content. Like text, images, or code based on learned patterns, you interact with these AI tools t...</p></details>
    Published: May 1, 2026  
 
 5.<a id="endnote-5"></a>

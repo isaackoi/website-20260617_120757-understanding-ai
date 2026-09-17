@@ -781,7 +781,7 @@ The legal disputes therefore reveal a deeper shift in information consumption. I
 
 8.<a id="endnote-8"></a>
    Source: platformer.news  
-   Title: Google's [AI search](&#123;&#123; 'ai-search/' | relative_url &#125;&#125;) setback  
+   Title: Google's [AI search]({{ 'ai-search/' | relative_url }}) setback  
    Link:<a href="https://www.platformer.news/google-ai-overviews-eat-rocks-glue-pizza/" target="_blank" rel="noopener noreferrer nofollow">https://www.platformer.news/google-ai-overviews-eat-rocks-glue-pizza/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>May 28, 2024 — Most famously, there was the result that suggested putting nontoxic glue in your pizza. But AI overviews also suggested pu...</p></details>
    Published: May 28, 2024  
@@ -833,7 +833,7 @@ The legal disputes therefore reveal a deeper shift in information consumption. I
 18.<a id="endnote-18"></a>
    Source: Wikipedia  
    Link:<a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation]({{ 'routes/' | relative_url }}) applications, email services, office suites, online vid...</p></details>
 
 ### Additional References
 

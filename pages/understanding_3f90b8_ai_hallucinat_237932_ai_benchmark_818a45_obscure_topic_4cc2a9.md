@@ -778,7 +778,7 @@ Obscure questions reveal a reliability problem that benchmark leaderboards often
 7.<a id="endnote-7"></a>
    Source: mdpi.com  
    Link:<a href="https://www.mdpi.com/2073-431X/15/3/178" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2073-431X/15/3/178</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Knowledge Graph Extraction via LLMs: An Anchor-Constrained Framework with [Provenance](&amp;#123;&amp;#123; &#x27;provenance/&#x27; | relative_url &amp;#125;&amp;#125;) TrackingMarch 9, 2026...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Knowledge Graph Extraction via LLMs: An Anchor-Constrained Framework with [Provenance]({{ 'provenance/' | relative_url }}) TrackingMarch 9, 2026...</p></details>
    Published: March 9, 2026  
 
 8.<a id="endnote-8"></a>

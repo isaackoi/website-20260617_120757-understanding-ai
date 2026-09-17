@@ -797,7 +797,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
 
 9.<a id="endnote-9"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Title: PMCCan [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) Chatbots Emulate Human Connection?  
+   Title: PMCCan [Generative AI]({{ 'generative-ai/' | relative_url }}) Chatbots Emulate Human Connection?  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>MG Smith · 2025 · Cited by 59 — This analysis applies theoretical tools from more than 50 years of research on close relationship...</p></details>
 

@@ -802,7 +802,7 @@ A model can perform impressively on short factual tests while still making enoug
    Source: OpenAI  
    Title: why language models hallucinate  
    Link:<a href="https://openai.com/fr-FR/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/fr-FR/index/why-language-models-hallucinate/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>comModèles de langage: aux origines des [hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;) | OpenAISeptember 5, 2025...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comModèles de langage: aux origines des [hallucinations]({{ 'hallucinations/' | relative_url }}) | OpenAISeptember 5, 2025...</p></details>
    Published: September 5, 2025  
 
 ### Additional References
@@ -832,7 +832,7 @@ A model can perform impressively on short factual tests while still making enoug
 
 9.<a id="endnote-9"></a>
    Source: youtube.com  
-   Title: Episodic Memory for AI Agents: Why Retrieval Beats [Long Context](&#123;&#123; 'long-context-cost/' | relative_url &#125;&#125;)  
+   Title: Episodic Memory for AI Agents: Why Retrieval Beats [Long Context]({{ 'long-context-cost/' | relative_url }})  
    Link:<a href="https://www.youtube.com/watch?v=CDT6tn3gmh0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CDT6tn3gmh0</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Evals 101: How to Evaluate LLMs, Agentic AI &amp; GenAI Systems...</p></details>
 

@@ -874,7 +874,7 @@ For that reason, trustworthy AI requires more than source retrieval. It requires
 9.<a id="endnote-9"></a>
    Source: youtube.com  
    Link:<a href="https://www.youtube.com/watch?v=0SYV7o_fd50&amp;list=PLmPJQXJiMoUWFW2JxRSAfhcsQ0Cr9qbv-&amp;pp=gAQB" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0SYV7o_fd50&amp;list=PLmPJQXJiMoUWFW2JxRSAfhcsQ0Cr9qbv-&amp;pp=gAQB</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>* [Deep Learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) &amp; Neural Networks: [https://www.youtube.com/watch?v=2-Cg_1FtHk8&amp;list=PLmPJQXJiMoUVvvzXCBKSt0aA8A5NlryjV](https://www.youtube.com/watch?v=2-Cg_1FtHk8&amp;list=PLmPJQ...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>* [Deep Learning]({{ 'deep-learning/' | relative_url }}) &amp; Neural Networks: [https://www.youtube.com/watch?v=2-Cg_1FtHk8&amp;list=PLmPJQXJiMoUVvvzXCBKSt0aA8A5NlryjV](https://www.youtube.com/watch?v=2-Cg_1FtHk8&amp;list=PLmPJQ...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: youtube.com  

@@ -801,7 +801,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
 3.<a id="endnote-3"></a>
    Source: d3.harvard.edu  
    Link:<a href="https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/" target="_blank" rel="noopener noreferrer nofollow">https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) School AI InstituteGmail: ensuring a spam-free inbox with Machine Learning21 Nov 2015 — If an email is deemed “not spam”...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard [Business]({{ 'business-adoption/' | relative_url }}) School AI InstituteGmail: ensuring a spam-free inbox with Machine Learning21 Nov 2015 — If an email is deemed “not spam”...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: arxiv.org  
@@ -864,7 +864,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
 15.<a id="endnote-15"></a>
    Source: dev.to  
    Link:<a href="https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail&#x27;s 2025 Spam Filter Doesn&#x27;t Care About Your FeelingsNov 22, 2025 — Gmail&#x27;s 2025 algorithm tracks [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;) with disturbing precision...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail&#x27;s 2025 Spam Filter Doesn&#x27;t Care About Your FeelingsNov 22, 2025 — Gmail&#x27;s 2025 algorithm tracks [engagement]({{ 'engagement-goals/' | relative_url }}) with disturbing precision...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: youtube.com  

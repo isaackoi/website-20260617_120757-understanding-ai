@@ -796,7 +796,7 @@ When the examples come from a history shaped by unequal opportunities, the model
    Source: youtube.com  
    Title: Amazon Rejected Women | $10M AI Mistake | How Statistics Could've Prevented It  
    Link:<a href="https://www.youtube.com/watch?v=A5qiIILKSE0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=A5qiIILKSE0</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics of AI in HR | Bias, Privacy and [Legal Risks](&amp;#123;&amp;#123; &#x27;legal-risks/&#x27; | relative_url &amp;#125;&amp;#125;) Explained...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics of AI in HR | Bias, Privacy and [Legal Risks]({{ 'legal-risks/' | relative_url }}) Explained...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: youtube.com  

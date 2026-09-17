@@ -770,12 +770,12 @@ Within the broader principle that facial recognition matches require independent
 3.<a id="endnote-3"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2505.14320" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2505.14320</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Accuracy and Fairness of Facial Recognition Technology in Low-Quality Police Images: An Experiment With [Synthetic](&amp;#123;&amp;#123; &#x27;synthetic-media/&#x27; | relative_url &amp;#125;&amp;#125;) FacesMay 20, 2025...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Accuracy and Fairness of Facial Recognition Technology in Low-Quality Police Images: An Experiment With [Synthetic]({{ 'synthetic-media/' | relative_url }}) FacesMay 20, 2025...</p></details>
    Published: May 20, 2025  
 
 4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Title: Ulixes: Facial Recognition Privacy with Adversarial [Machine Learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;)  
+   Title: Ulixes: Facial Recognition Privacy with Adversarial [Machine Learning]({{ 'machine-learning/' | relative_url }})  
    Link:<a href="https://arxiv.org/abs/2010.10242" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2010.10242</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>October 20, 2020...</p></details>
    Published: October 20, 2020  

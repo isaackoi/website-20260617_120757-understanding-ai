@@ -851,7 +851,7 @@ The central lesson of modern AI governance is that fairness is not demonstrated 
 12.<a id="endnote-12"></a>
    Source: reuters.com  
    Link:<a href="https://www.reuters.com/legal/legalindustry/stepping-into-ai-void-employment-why-state-ai-rules-now-matter-more-than-federal--pracin-2025-10-24/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/legalindustry/stepping-into-ai-void-employment-why-state-ai-rules-now-matter-more-than-federal--pracin-2025-10-24/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>is rapidly evolving to address the use of AI in hiring, particularly due to a lack of comprehensive federal [oversight](&amp;#123;&amp;#123; &#x27;oversight/&#x27; | relative_url &amp;#125;&amp;#125;). Companies employin...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>is rapidly evolving to address the use of AI in hiring, particularly due to a lack of comprehensive federal [oversight]({{ 'oversight/' | relative_url }}). Companies employin...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: link.springer.com  

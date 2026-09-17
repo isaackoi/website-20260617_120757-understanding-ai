@@ -795,7 +795,7 @@ For risk-based regulation, that impact is what matters. The possibility of discr
 8.<a id="endnote-8"></a>
    Source: artificialintelligenceact.eu  
    Link:<a href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/annex/3/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)This Annex lists [use cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#125;&amp;#125;) that would qualify an AI...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)This Annex lists [use cases]({{ 'use-cases/' | relative_url }}) that would qualify an AI...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: ai-act-service-desk.ec.europa.eu  

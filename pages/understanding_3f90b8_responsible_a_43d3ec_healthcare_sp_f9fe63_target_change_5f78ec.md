@@ -793,7 +793,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
 
 10.<a id="endnote-10"></a>
    Source: youtube.com  
-   Title: [Understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) bias in health AI  
+   Title: [Understanding]({{ 'understanding/' | relative_url }}) bias in health AI  
    Link:<a href="https://www.youtube.com/watch?v=zks3pdPN7A4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zks3pdPN7A4</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions - YouTube Dissecting Racial Bias in an Algorithm that Gu...</p></details>
 

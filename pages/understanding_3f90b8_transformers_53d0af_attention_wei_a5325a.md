@@ -772,7 +772,7 @@ The central lesson is that attention measures information routing, not necessari
 
 2.<a id="endnote-2"></a>
    Source: Wikipedia  
-   Title: Attention ([machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;))  
+   Title: Attention ([machine learning]({{ 'machine-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
 
 3.<a id="endnote-3"></a>
@@ -881,7 +881,7 @@ The central lesson is that attention measures information routing, not necessari
    Source: medium.com  
    Title: exploring visual attention in transformer models ab538c06083a  
    Link:<a href="https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Visual Attention in Transformer ModelsThe attention rollout method developed in Abnar &amp; Zuidema(2020) is for [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) in...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Visual Attention in Transformer ModelsThe attention rollout method developed in Abnar &amp; Zuidema(2020) is for [language models]({{ 'language-models/' | relative_url }}) in...</p></details>
 
 23.<a id="endnote-23"></a>
    Source: researchgate.net  

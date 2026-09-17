@@ -779,7 +779,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
    Source: cs231n.stanford.edu  
    Title: lecture 9  
    Link:<a href="https://cs231n.stanford.edu/slides/2025/lecture_9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.stanford.edu/slides/2025/lecture_9.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Design a network with only convolutional layers without downsampling operators to make [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) for pixels all at once!Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Design a network with only convolutional layers without downsampling operators to make [predictions]({{ 'predictions/' | relative_url }}) for pixels all at once!Read more...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: cs231n.github.io  
@@ -811,7 +811,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
 14.<a id="endnote-14"></a>
    Source: openfl.pressbooks.pub  
    Link:<a href="https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/" target="_blank" rel="noopener noreferrer nofollow">https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualization – [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximizes the ac...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualization – [Business]({{ 'business-adoption/' | relative_url }}) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximizes the ac...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: machinelearningmastery.com  

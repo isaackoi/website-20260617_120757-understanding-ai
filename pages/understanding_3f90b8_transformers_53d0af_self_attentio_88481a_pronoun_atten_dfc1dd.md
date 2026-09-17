@@ -766,7 +766,7 @@ Self-attention gives Transformers a powerful mechanism for creating those connec
 
 3.<a id="endnote-3"></a>
    Source: Wikipedia  
-   Title: Transformer ([deep learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;))  
+   Title: Transformer ([deep learning]({{ 'deep-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
 
 4.<a id="endnote-4"></a>

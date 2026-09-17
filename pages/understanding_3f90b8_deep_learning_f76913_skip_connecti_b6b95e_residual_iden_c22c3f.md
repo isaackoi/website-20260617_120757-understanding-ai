@@ -770,7 +770,7 @@ The practical takeaway is straightforward: residual blocks make deeper layers sa
    Source: youtube.com  
    Title: The "Shortcut" That Made AI See Like a Human  
    Link:<a href="https://www.youtube.com/watch?v=GMoyIT8wG1E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=GMoyIT8wG1E</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Why ResNets Work So Well | [Deep Learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) Explained - YouTube Why ResNets Work So Well | Deep Learning Explained - YouTube Coursesteach...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why ResNets Work So Well | [Deep Learning]({{ 'deep-learning/' | relative_url }}) Explained - YouTube Why ResNets Work So Well | Deep Learning Explained - YouTube Coursesteach...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: youtu.be  

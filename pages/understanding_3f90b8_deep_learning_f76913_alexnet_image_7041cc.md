@@ -825,7 +825,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
    Source: helios2.mi.parisdescartes.fr  
    Title: Alex Net12  
    Link:<a href="https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf" target="_blank" rel="noopener noreferrer nofollow">https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce [overfitting](&amp;#123;&amp;#123; &#x27;overfitting/&#x27; | relative_url &amp;#125;&amp;#125;) in...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce [overfitting]({{ 'overfitting/' | relative_url }}) in...</p></details>
 
 14.<a id="endnote-14"></a>
    Source: d2l.ai  
@@ -871,7 +871,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
 
 22.<a id="endnote-22"></a>
    Source: medium.com  
-   Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) alexnet the 2012 breakthrough that changed ai forever 7c365cf76969  
+   Title: [understanding]({{ 'understanding/' | relative_url }}) alexnet the 2012 breakthrough that changed ai forever 7c365cf76969  
    Link:<a href="https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding AlexNet: The 2012 Breakthrough That...AlexNet&#x27;s 15.3% top-5 error rate was unprecedented, drastically outperforming previo...</p></details>
 
@@ -882,7 +882,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
 
 24.<a id="endnote-24"></a>
    Source: tomshardware.com  
-   Title: Tom's Hardware Two GTX 580s in SLI are [responsible](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) for the AI we have today  
+   Title: Tom's Hardware Two GTX 580s in SLI are [responsible]({{ 'responsible-ai/' | relative_url }}) for the AI we have today  
    Link:<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers at the University of Toronto, namely Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, developed AlexNet—an eight-layer c...</p></details>
 

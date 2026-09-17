@@ -893,7 +893,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
 11.<a id="endnote-11"></a>
    Source: aiactblog.nl  
    Link:<a href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/12</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) PlatformArticle 12 AI Act: Record-keeping | Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Responsible AI]({{ 'responsible-ai/' | relative_url }}) PlatformArticle 12 AI Act: Record-keeping | Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: ai-act-service-desk.ec.europa.eu  
@@ -930,7 +930,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
 18.<a id="endnote-18"></a>
    Source: GOV.UK  
    Link:<a href="https://www.gov.uk/eu-eea" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/eu-eea</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>in the EU and EEAThe European Union (EU) is an economic and [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) union of 27 countries. It operates an internal (or single) market...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in the EU and EEAThe European Union (EU) is an economic and [political]({{ 'political-video/' | relative_url }}) union of 27 countries. It operates an internal (or single) market...</p></details>
 
 19.<a id="endnote-19"></a>
    Source: fda.gov  

@@ -759,7 +759,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
 2.<a id="endnote-2"></a>
    Source: developers.google.com  
    Link:<a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/fundamentals/how-search-works</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersIn-Depth Guide to How Google Search WorksGet an in-depth [understanding](&amp;#123;&amp;#123; &#x27;understanding/&#x27; | relative_url &amp;#125;&amp;#125;) of how Google Search works and improve your s...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersIn-Depth Guide to How Google Search WorksGet an in-depth [understanding]({{ 'understanding/' | relative_url }}) of how Google Search works and improve your s...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: developers.google.com  
@@ -904,7 +904,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
 29.<a id="endnote-29"></a>
    Source: medium.com  
    Link:<a href="https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google&#x27;s AI Learns to Interpret Search QueriesRankBrain is Google&#x27;s [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) system that helps interpret search queries and d...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google&#x27;s AI Learns to Interpret Search QueriesRankBrain is Google&#x27;s [machine learning]({{ 'machine-learning/' | relative_url }}) system that helps interpret search queries and d...</p></details>
 
 30.<a id="endnote-30"></a>
    Source: kopp-online-marketing.com  

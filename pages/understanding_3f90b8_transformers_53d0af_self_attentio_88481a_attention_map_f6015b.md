@@ -727,7 +727,7 @@ The safest interpretation is therefore a limited one: attention maps can help sh
 1.<a id="endnote-1"></a>
    Source: ibm.com  
    Link:<a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) technique that directs deep learning models to prioritize...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning]({{ 'machine-learning/' | relative_url }}) technique that directs deep learning models to prioritize...</p></details>
 
 2.<a id="endnote-2"></a>
    Source: arxiv.org  

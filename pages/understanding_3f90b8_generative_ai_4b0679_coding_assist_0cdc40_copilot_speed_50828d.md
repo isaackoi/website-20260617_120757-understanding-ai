@@ -901,7 +901,7 @@ That possibility does not negate the value of coding assistants. It simply chang
 
 12.<a id="endnote-12"></a>
    Source: docs.github.com  
-   Title: [code review](&#123;&#123; 'code-review/' | relative_url &#125;&#125;)  
+   Title: [code review]({{ 'code-review/' | relative_url }})  
    Link:<a href="https://docs.github.com/en/copilot/concepts/agents/code-review" target="_blank" rel="noopener noreferrer nofollow">https://docs.github.com/en/copilot/concepts/agents/code-review</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot code reviewCopilot code review reviews code written in any language, and provides feedback. It reviews your code from mult...</p></details>
 

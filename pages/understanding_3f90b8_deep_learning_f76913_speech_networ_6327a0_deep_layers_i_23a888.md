@@ -492,7 +492,7 @@ The result is a hierarchy where early layers hear sound, but deeper layers incre
 12.<a id="endnote-12"></a>
    Source: microsoft.com  
    Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2018/04/ICASSP2018_Speaker_Invariant_Training.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2018/04/ICASSP2018_Speaker_Invariant_Training.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>We propose a novel [adversarial](&amp;#123;&amp;#123; &#x27;stress-tests/&#x27; | relative_url &amp;#125;&amp;#125;) multi-task learning scheme, aim- ing at actively curtailing the inter-talker feature variability while.Rea...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We propose a novel [adversarial]({{ 'stress-tests/' | relative_url }}) multi-task learning scheme, aim- ing at actively curtailing the inter-talker feature variability while.Rea...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: simplecore.intel.com  
@@ -509,7 +509,7 @@ The result is a hierarchy where early layers hear sound, but deeper layers incre
    Source: theses.hal.science  
    Title: 130015 CAUCHETEUX 2023 diffusion  
    Link:<a href="https://theses.hal.science/tel-04165471v1/file/130015_CAUCHETEUX_2023_diffusion.pdf" target="_blank" rel="noopener noreferrer nofollow">https://theses.hal.science/tel-04165471v1/file/130015_CAUCHETEUX_2023_diffusion.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>representations in [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) algorithms and...19 Jul 2023 — In this thesis, I compare the internal representations of the brain and...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>representations in [deep learning]({{ 'deep-learning/' | relative_url }}) algorithms and...19 Jul 2023 — In this thesis, I compare the internal representations of the brain and...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: yorkspace.library.yorku.ca  
@@ -535,7 +535,7 @@ The result is a hierarchy where early layers hear sound, but deeper layers incre
 
 20.<a id="endnote-20"></a>
    Source: youtube.com  
-   Title: Multimodal speech [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;)  
+   Title: Multimodal speech [understanding]({{ 'understanding/' | relative_url }})  
    Link:<a href="https://www.youtube.com/watch?v=Yyhq8DcBq2U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Yyhq8DcBq2U</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Naomi HarteThis short talk will focus on the potential of multimodal speech analysis and look at how the advent of deep learning architec...</p></details>
 

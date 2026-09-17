@@ -768,7 +768,7 @@ Recommendation systems are often described as tools for discovery, but their bro
 3.<a id="endnote-3"></a>
    Source: help.netflix.com  
    Link:<a href="https://help.netflix.com/en/node/100639" target="_blank" rel="noopener noreferrer nofollow">https://help.netflix.com/en/node/100639</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Netflix Help CenterHow Netflix&#x27;s Recommendations System WorksOur [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) is a subscription service model that offers personalized recomm...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Netflix Help CenterHow Netflix&#x27;s Recommendations System WorksOur [business]({{ 'business-adoption/' | relative_url }}) is a subscription service model that offers personalized recomm...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: research.netflix.com  
@@ -801,7 +801,7 @@ Recommendation systems are often described as tools for discovery, but their bro
    Source: research.netflix.com  
    Title: lessons learnt from consolidating ml models in a large scale recommendation  
    Link:<a href="https://research.netflix.com/publication/lessons-learnt-from-consolidating-ml-models-in-a-large-scale-recommendation" target="_blank" rel="noopener noreferrer nofollow">https://research.netflix.com/publication/lessons-learnt-from-consolidating-ml-models-in-a-large-scale-recommendation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Learnt From Consolidating ML Models in a Large...At Netflix, [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) algorithms are at the heart of various [use cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#1...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learnt From Consolidating ML Models in a Large...At Netflix, [Machine Learning]({{ 'machine-learning/' | relative_url }}) algorithms are at the heart of various [use cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#1...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: research.netflix.com  

@@ -920,7 +920,7 @@ The challenge is that AI-generated code often succeeds at the most visible test:
 28.<a id="endnote-28"></a>
    Source: medium.com  
    Link:<a href="https://medium.com/%40victoku1/security-risks-in-llm-powered-applications-a-comprehensive-review-29057f63aabc" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40victoku1/security-risks-in-llm-powered-applications-a-comprehensive-review-29057f63aabc</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Security Risks in LLM Powered ApplicationsPrompt injection, agent abuse, and [data leaks](&amp;#123;&amp;#123; &#x27;data-leaks/&#x27; | relative_url &amp;#125;&amp;#125;): a deep dive into securing modern applications bu...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Security Risks in LLM Powered ApplicationsPrompt injection, agent abuse, and [data leaks]({{ 'data-leaks/' | relative_url }}): a deep dive into securing modern applications bu...</p></details>
 
 29.<a id="endnote-29"></a>
    Source: softwareseni.com  
@@ -946,4 +946,4 @@ The challenge is that AI-generated code often succeeds at the most visible test:
    Source: oligo.security  
    Title: owasp top 10 llm updated 2025 examples and mitigation strategies  
    Link:<a href="https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies" target="_blank" rel="noopener noreferrer nofollow">https://www.oligo.security/academy/owasp-top-10-llm-updated-2025-examples-and-mitigation-strategies</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Injection Attacks · 2. Sensitive Information [Disclosure](&amp;#123;&amp;#123; &#x27;disclosure/&#x27; | relative_url &amp;#125;&amp;#125;) · 3. Supply Chain · 4. Data and Model Poisoning · 5. Improper Output Handl...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Injection Attacks · 2. Sensitive Information [Disclosure]({{ 'disclosure/' | relative_url }}) · 3. Supply Chain · 4. Data and Model Poisoning · 5. Improper Output Handl...</p></details>

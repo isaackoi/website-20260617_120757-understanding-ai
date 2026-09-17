@@ -755,7 +755,7 @@ This has become one of the strongest demonstrations that Transformer architectur
 
 3.<a id="endnote-3"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Title: PMCThe language of proteins: NLP, [machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;)  
+   Title: PMCThe language of proteins: NLP, [machine learning]({{ 'machine-learning/' | relative_url }})  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>NIHby D Ofer · 2021 · Cited by 468 — In this review, we present a modern view on applications of NLP methods to the study of protei...</p></details>
 

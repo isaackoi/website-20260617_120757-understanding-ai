@@ -816,7 +816,7 @@ The lasting contribution of the work is its demonstration that language models c
    Source: anthropic.com  
    Title: claude opus 4 5 system card  
    Link:<a href="https://www.anthropic.com/claude-opus-4-5-system-card" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/claude-opus-4-5-system-card</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Claude Opus 4.5 System Card24 Nov 2025 — This is effective for reducing direct [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;) of multiple-choice questions and answers in...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Claude Opus 4.5 System Card24 Nov 2025 — This is effective for reducing direct [contamination]({{ 'contamination/' | relative_url }}) of multiple-choice questions and answers in...</p></details>
 
 14.<a id="endnote-14"></a>
    Source: anthropic.com  
@@ -847,7 +847,7 @@ The lasting contribution of the work is its demonstration that language models c
 19.<a id="endnote-19"></a>
    Source: youtube.com  
    Link:<a href="https://www.youtube.com/watch?v=T3A6LQ8WJbc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=T3A6LQ8WJbc</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic Bloom: The AI That Interrogates Other AIs ([Automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) Red Teaming)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic Bloom: The AI That Interrogates Other AIs ([Automated]({{ 'decisions/' | relative_url }}) Red Teaming)...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: youtube.com  
@@ -879,7 +879,7 @@ The lasting contribution of the work is its demonstration that language models c
 25.<a id="endnote-25"></a>
    Source: anthropic.skilljar.com  
    Link:<a href="https://anthropic.skilljar.com/" target="_blank" rel="noopener noreferrer nofollow">https://anthropic.skilljar.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>CoursesThis course empowers students to develop AI [Fluency](&amp;#123;&amp;#123; &#x27;fluency-vs-accuracy/&#x27; | relative_url &amp;#125;&amp;#125;) skills that enhance learning, career planning, and academic success through re...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CoursesThis course empowers students to develop AI [Fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) skills that enhance learning, career planning, and academic success through re...</p></details>
 
 26.<a id="endnote-26"></a>
    Source: liner.com  

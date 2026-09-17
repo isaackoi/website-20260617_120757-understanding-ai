@@ -760,7 +760,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
 2.<a id="endnote-2"></a>
    Source: ibm.com  
    Link:<a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) technique that directs [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning]({{ 'machine-learning/' | relative_url }}) technique that directs [deep learning]({{ 'deep-learning/' | relative_url }})...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: pixelbank.dev  

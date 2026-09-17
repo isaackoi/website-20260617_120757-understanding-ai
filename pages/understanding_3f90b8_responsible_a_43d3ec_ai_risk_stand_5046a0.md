@@ -794,7 +794,7 @@ In the wider effort to address bias and strengthen accountability, that shift fr
 2.<a id="endnote-2"></a>
    Source: iso.org  
    Link:<a href="https://www.iso.org/standard/81230.html?browse=ics" target="_blank" rel="noopener noreferrer nofollow">https://www.iso.org/standard/81230.html?browse=ics</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ISO/IEC 42001:2023 - AI [management systems](&amp;#123;&amp;#123; &#x27;management-systems/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ISO/IEC 42001:2023 - AI [management systems]({{ 'management-systems/' | relative_url }})...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: oecd.org  
@@ -842,7 +842,7 @@ In the wider effort to address bias and strengthen accountability, that shift fr
    Source: youtube.com  
    Title: AI Governance Foundations  
    Link:<a href="https://www.youtube.com/watch?v=b6HwyKFShek" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=b6HwyKFShek</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ISO 42001 &amp; AI Risk Management Every [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) Must Know (2026 Guide) - YouTube ISO 42001 &amp; AI Risk Management Every Business Must Know (2...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ISO 42001 &amp; AI Risk Management Every [Business]({{ 'business-adoption/' | relative_url }}) Must Know (2026 Guide) - YouTube ISO 42001 &amp; AI Risk Management Every Business Must Know (2...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: youtube.com  

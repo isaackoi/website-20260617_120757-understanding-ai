@@ -839,7 +839,7 @@ Overfitting exposes a fundamental truth about artificial intelligence: success o
 19.<a id="endnote-19"></a>
    Source: developers.google.com  
    Link:<a href="https://developers.google.com/machine-learning/crash-course/llm" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/llm</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>to Large [Language Models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) | Machine LearningJan 9, 2026 — This course module provides an overview of language models and large language mo...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to Large [Language Models]({{ 'language-models/' | relative_url }}) | Machine LearningJan 9, 2026 — This course module provides an overview of language models and large language mo...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: developers.google.com  
@@ -872,7 +872,7 @@ Overfitting exposes a fundamental truth about artificial intelligence: success o
 25.<a id="endnote-25"></a>
    Source: ibm.com  
    Link:<a href="https://www.ibm.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>For more than a century, IBM has been a global technology innovator, leading advances in AI, [automation](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;) and hybrid cloud solutions tha...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>For more than a century, IBM has been a global technology innovator, leading advances in AI, [automation]({{ 'automation-bias/' | relative_url }}) and hybrid cloud solutions tha...</p></details>
 
 26.<a id="endnote-26"></a>
    Source: scikit-learn.org  

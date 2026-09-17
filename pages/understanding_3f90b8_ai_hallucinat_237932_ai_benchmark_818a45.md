@@ -800,7 +800,7 @@ As AI systems become more capable, the most important reliability question is in
 
 1.<a id="endnote-1"></a>
    Source: OpenAI  
-   Title: why [language models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;) hallucinate  
+   Title: why [language models]({{ 'language-models/' | relative_url }}) hallucinate  
    Link:<a href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>September 5, 2025...</p></details>
    Published: September 5, 2025  

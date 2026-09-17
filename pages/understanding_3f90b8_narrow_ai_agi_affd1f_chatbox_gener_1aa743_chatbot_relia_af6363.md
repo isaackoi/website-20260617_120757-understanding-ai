@@ -786,7 +786,7 @@ Understanding artificial intelligence therefore requires looking beyond the qual
    Source: microsoft.com  
    Title: lee 2025 ai critical thinking survey  
    Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) on Critical Thinkingby HPH Lee · 2025 · Cited by 890 — We find that GenAI tools reduce the perceived...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of [Generative AI]({{ 'generative-ai/' | relative_url }}) on Critical Thinkingby HPH Lee · 2025 · Cited by 890 — We find that GenAI tools reduce the perceived...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: arxiv.org  
@@ -856,7 +856,7 @@ Understanding artificial intelligence therefore requires looking beyond the qual
 15.<a id="endnote-15"></a>
    Source: microsoft.com  
    Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/03/GenAI_AppropriateReliance_Published2024-3-21.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2024/03/GenAI_AppropriateReliance_Published2024-3-21.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Appropriate reliance on GenAI: - Research synthesisAppropriate reliance on AI happens when users accept correct [AI outputs](&amp;#123;&amp;#123; &#x27;ai-outputs/&#x27; | relative_url &amp;#125;&amp;#125;) and reject inc...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Appropriate reliance on GenAI: - Research synthesisAppropriate reliance on AI happens when users accept correct [AI outputs]({{ 'ai-outputs/' | relative_url }}) and reject inc...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: arxiv.org  

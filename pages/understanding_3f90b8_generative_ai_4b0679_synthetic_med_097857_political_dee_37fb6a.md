@@ -836,7 +836,7 @@ As artificial intelligence makes synthetic media increasingly convincing, the ce
    Source: theguardian.com  
    Title: The Guardian'They feel true': political deepfakes are growing in influence  
    Link:<a href="https://www.theguardian.com/technology/2026/mar/28/military-deepfakes-ai-propaganda-money" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2026/mar/28/military-deepfakes-ai-propaganda-money</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) has made it easy and fast to create realistic fake scenes, leading to a surge in political deepfake content—over 1,000 case...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Generative AI]({{ 'generative-ai/' | relative_url }}) has made it easy and fast to create realistic fake scenes, leading to a surge in political deepfake content—over 1,000 case...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: theguardian.com  
@@ -887,7 +887,7 @@ As artificial intelligence makes synthetic media increasingly convincing, the ce
 23.<a id="endnote-23"></a>
    Source: ijarsct.co.in  
    Link:<a href="https://ijarsct.co.in/Paper30432.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ijarsct.co.in/Paper30432.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Fake Video DetectionSince deepfake videos are designed to appear authentic, human detection is often unreliable, making [automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) de...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Fake Video DetectionSince deepfake videos are designed to appear authentic, human detection is often unreliable, making [automated]({{ 'decisions/' | relative_url }}) de...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: linkedin.com  
@@ -918,7 +918,7 @@ As artificial intelligence makes synthetic media increasingly convincing, the ce
    Source: siliconangle.com  
    Title: nist announces new initiative create systems can detect ai generated content  
    Link:<a href="https://siliconangle.com/2024/04/29/nist-announces-new-initiative-create-systems-can-detect-ai-generated-content/" target="_blank" rel="noopener noreferrer nofollow">https://siliconangle.com/2024/04/29/nist-announces-new-initiative-create-systems-can-detect-ai-generated-content/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST announces new initiative to create systems that can...29 Apr 2024 — NIST GenAI will work to create new [AI benchmarks](&amp;#123;&amp;#123; &#x27;benchmark-gaps/&#x27; | relative_url &amp;#125;&amp;#125;) and attempt to...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST announces new initiative to create systems that can...29 Apr 2024 — NIST GenAI will work to create new [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) and attempt to...</p></details>
 
 30.<a id="endnote-30"></a>
    Source: civicus.org  

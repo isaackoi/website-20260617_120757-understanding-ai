@@ -769,7 +769,7 @@ Evidence from interpretability studies suggests that feature visualisations work
 
 8.<a id="endnote-8"></a>
    Source: openreview.net  
-   Title: Open Review [Adversarial](&#123;&#123; 'stress-tests/' | relative_url &#125;&#125;) Attacks on Neuron Interpretation via Activation  
+   Title: Open Review [Adversarial]({{ 'stress-tests/' | relative_url }}) Attacks on Neuron Interpretation via Activation  
    Link:<a href="https://openreview.net/pdf/637f5c318237190cce1ff2528a37fc06346a5812.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf/637f5c318237190cce1ff2528a37fc06346a5812.pdf</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Adversarial Attacks on Neuron Interpretation via Activation...November 18, 2023 — We study the feature visualization of a neur...</p></details>
    Published: November 18, 2023  
@@ -819,7 +819,7 @@ Evidence from interpretability studies suggests that feature visualisations work
 17.<a id="endnote-17"></a>
    Source: openfl.pressbooks.pub  
    Link:<a href="https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/" target="_blank" rel="noopener noreferrer nofollow">https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Feature Visualization – [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximize...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Feature Visualization – [Business]({{ 'business-adoption/' | relative_url }}) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximize...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: lmb.informatik.uni-freiburg.de  
@@ -850,7 +850,7 @@ Evidence from interpretability studies suggests that feature visualisations work
    Source: ruthfong.com  
    Title: Understanding Convolutional Neural Networks  
    Link:<a href="https://www.ruthfong.com/files/fong20_thesis.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ruthfong.com/files/fong20_thesis.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AbstractIn this thesis, we introduce several methods for understanding convolutional neural networks (CNNs), the class of [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) m...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AbstractIn this thesis, we introduce several methods for understanding convolutional neural networks (CNNs), the class of [deep learning]({{ 'deep-learning/' | relative_url }}) m...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: aisafety.info  

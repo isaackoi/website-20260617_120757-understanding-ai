@@ -879,7 +879,7 @@ Understanding that distinction helps explain why different studies reach differe
    Source: github.blog  
    Title: copilot is moving to usage based billing  
    Link:<a href="https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot is moving to usage-based billing27 Apr 2026 — Copilot [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;): $30 in monthly AI Credits; Copilot Enterprise: $70 in mont...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot is moving to usage-based billing27 Apr 2026 — Copilot [Business]({{ 'business-adoption/' | relative_url }}): $30 in monthly AI Credits; Copilot Enterprise: $70 in mont...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: github.blog  

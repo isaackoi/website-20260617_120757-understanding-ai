@@ -882,7 +882,7 @@ This does not mean AI-generated summaries are inherently unreliable. They often 
    Source: mbrenndoerfer.com  
    Title: Michael Brenndoerfer Attribution and Citation: Sourcing LLM Outputs  
    Link:<a href="https://mbrenndoerfer.com/writing/attribution-and-citation" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/attribution-and-citation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferAttribution and Citation: Sourcing LLM Outputs - Interactive16 Feb 2026 — Learn how [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) link generated cl...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferAttribution and Citation: Sourcing LLM Outputs - Interactive16 Feb 2026 — Learn how [language models]({{ 'language-models/' | relative_url }}) link generated cl...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: suprmind.ai  

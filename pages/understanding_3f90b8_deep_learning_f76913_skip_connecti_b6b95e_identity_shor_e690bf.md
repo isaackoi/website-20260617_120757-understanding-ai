@@ -752,7 +752,7 @@ Identity shortcuts keep gradients usable because they provide a direct path thro
 
 5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Title: arXiv Identity Matters in [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;)  
+   Title: arXiv Identity Matters in [Deep Learning]({{ 'deep-learning/' | relative_url }})  
    Link:<a href="https://arxiv.org/abs/1611.04231" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1611.04231</a>  
 
 6.<a id="endnote-6"></a>
@@ -832,7 +832,7 @@ Identity shortcuts keep gradients usable because they provide a direct path thro
 20.<a id="endnote-20"></a>
    Source: reddit.com  
    Link:<a href="https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented](&amp;#123;&amp;#123; &#x27;fake-citations-d81942/&#x27; | relative_url &amp;#125;&amp;#125;) to solve the degradation problem that has been empirical...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented]({{ 'fake-citations-d81942/' | relative_url }}) to solve the degradation problem that has been empirical...</p></details>
 
 21.<a id="endnote-21"></a>
    Source: semanticscholar.org  

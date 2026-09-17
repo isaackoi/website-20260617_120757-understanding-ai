@@ -868,7 +868,7 @@ The practical lesson for organisations moving beyond pilots is straightforward: 
    Source: techradar.com  
    Title: Tech Radar3 risks hindering enterprise-ready AI  
    Link:<a href="https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI systems, which operate autonomously with minimal human [oversight](&amp;#123;&amp;#123; &#x27;oversight/&#x27; | relative_url &amp;#125;&amp;#125;), face three primary risks: 1. **Lack of Transparency**: These...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI systems, which operate autonomously with minimal human [oversight]({{ 'oversight/' | relative_url }}), face three primary risks: 1. **Lack of Transparency**: These...</p></details>
 
 8.<a id="endnote-8"></a>
    Source: techradar.com  

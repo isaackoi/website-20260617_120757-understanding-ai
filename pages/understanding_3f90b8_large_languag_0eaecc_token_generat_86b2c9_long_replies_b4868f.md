@@ -768,7 +768,7 @@ The key idea is that a long answer is not a single object waiting to be revealed
 1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/html/2604.07023v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2604.07023v1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Enabling Autoregressive Models Multi-Token Generation8 Apr 2026 — Autoregressive (AR) [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) spend the same compute on ever...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enabling Autoregressive Models Multi-Token Generation8 Apr 2026 — Autoregressive (AR) [language models]({{ 'language-models/' | relative_url }}) spend the same compute on ever...</p></details>
 
 2.<a id="endnote-2"></a>
    Source: developer.nvidia.com  
@@ -812,7 +812,7 @@ The key idea is that a long answer is not a single object waiting to be revealed
 9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/pdf/2603.20397" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2603.20397</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>kv cache optimization strategies for scalableby Y Xu · 2026 · Cited by 1 — Because [attention](&amp;#123;&amp;#123; &#x27;attention/&#x27; | relative_url &amp;#125;&amp;#125;) requires storing keys and values for every p...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>kv cache optimization strategies for scalableby Y Xu · 2026 · Cited by 1 — Because [attention]({{ 'attention/' | relative_url }}) requires storing keys and values for every p...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: arxiv.org  

@@ -766,7 +766,7 @@ The significance of Gender Shades was therefore not only the discovery of unequa
 3.<a id="endnote-3"></a>
    Source: proceedings.mlr.press  
    Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10687...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning]({{ 'machine-learning/' | relative_url }}) ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10687...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: proceedings.mlr.press  

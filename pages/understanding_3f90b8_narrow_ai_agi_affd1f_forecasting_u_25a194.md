@@ -865,7 +865,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
 19.<a id="endnote-19"></a>
    Source: openreview.net  
    Link:<a href="https://openreview.net/forum?id=QqtvS8ZMhb" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=QqtvS8ZMhb</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>that forecasting small-model failure can reduce [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;) cost while...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>that forecasting small-model failure can reduce [inference]({{ 'inference-test/' | relative_url }}) cost while...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: arxiv.org  
@@ -891,7 +891,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
 24.<a id="endnote-24"></a>
    Source: iclr.cc  
    Link:<a href="https://iclr.cc/media/iclr-2025/Slides/28507.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iclr.cc/media/iclr-2025/Slides/28507.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Our [automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) system manages the benchmark, from upda...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Our [automated]({{ 'decisions/' | relative_url }}) system manages the benchmark, from upda...</p></details>
 
 25.<a id="endnote-25"></a>
    Source: scientificadvice.eu  

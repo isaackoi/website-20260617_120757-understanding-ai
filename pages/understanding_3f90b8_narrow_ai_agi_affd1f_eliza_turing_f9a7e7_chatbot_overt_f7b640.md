@@ -794,7 +794,7 @@ Politeness, empathy, memory, confidence, and conversational skill all influence 
 5.<a id="endnote-5"></a>
    Source: papers.ssrn.com  
    Link:<a href="https://papers.ssrn.com/sol3/Delivery.cfm/5237414.pdf?abstractid=5237414&amp;mirid=1" target="_blank" rel="noopener noreferrer nofollow">https://papers.ssrn.com/sol3/Delivery.cfm/5237414.pdf?abstractid=5237414&amp;mirid=1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Illusion of Understanding in Modern AI Systems29 Apr 2025 — It explores how anthropomorphic design, [automation bias](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;), and the ELIZA effect...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Illusion of Understanding in Modern AI Systems29 Apr 2025 — It explores how anthropomorphic design, [automation bias]({{ 'automation-bias/' | relative_url }}), and the ELIZA effect...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: hai.stanford.edu  

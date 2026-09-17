@@ -848,7 +848,7 @@ Few-shot prompting demonstrates that language models are not limited to executin
 
 10.<a id="endnote-10"></a>
    Source: anthropic.com  
-   Title: prompt engineering for [business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) performance  
+   Title: prompt engineering for [business]({{ 'business-adoption/' | relative_url }}) performance  
    Link:<a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performance29 Feb 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and specif...</p></details>
 
@@ -899,7 +899,7 @@ Few-shot prompting demonstrates that language models are not limited to executin
 
 19.<a id="endnote-19"></a>
    Source: anthropic.com  
-   Title: prompting [long context](&#123;&#123; 'long-context-cost/' | relative_url &#125;&#125;)  
+   Title: prompting [long context]({{ 'long-context-cost/' | relative_url }})  
    Link:<a href="https://www.anthropic.com/news/prompting-long-context" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompting-long-context</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for Claude&#x27;s long context windowSep 23, 2023 — Our goal with this experiment is to evaluate techniques to maximize Cla...</p></details>
 
@@ -947,7 +947,7 @@ Few-shot prompting demonstrates that language models are not limited to executin
 
 28.<a id="endnote-28"></a>
    Source: aipromptlibrary.app  
-   Title: claude [ai prompts](&#123;&#123; 'data-leaks/' | relative_url &#125;&#125;) guide  
+   Title: claude [ai prompts]({{ 'data-leaks/' | relative_url }}) guide  
    Link:<a href="https://www.aipromptlibrary.app/blog/claude-ai-prompts-guide" target="_blank" rel="noopener noreferrer nofollow">https://www.aipromptlibrary.app/blog/claude-ai-prompts-guide</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>100 Claude AI Prompts I Actually Use — Free Templates (2026)8 Jan 2026 — Master Anthropic&#x27;s Claude with expert prompting techniques, XML...</p></details>
 

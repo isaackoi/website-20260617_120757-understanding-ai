@@ -968,7 +968,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
    Source: youtube.com  
    Title: The best way to search for info online in the AI era | Terms of Service  
    Link:<a href="https://www.youtube.com/watch?v=4WgxWlcf1Xw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=4WgxWlcf1Xw</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AI overviews search accuracy study google How to Dominate [AI Search](&amp;#123;&amp;#123; &#x27;ai-search/&#x27; | relative_url &amp;#125;&amp;#125;) Results in 2026 (ChatGPT, AI Overviews &amp; More) Surfer Academy...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI overviews search accuracy study google How to Dominate [AI Search]({{ 'ai-search/' | relative_url }}) Results in 2026 (ChatGPT, AI Overviews &amp; More) Surfer Academy...</p></details>
 
 35.<a id="endnote-35"></a>
    Source: youtube.com  

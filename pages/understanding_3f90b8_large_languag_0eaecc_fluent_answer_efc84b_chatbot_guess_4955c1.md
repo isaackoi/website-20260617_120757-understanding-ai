@@ -778,7 +778,7 @@ The central lesson is that chatbot guessing is not primarily a personality trait
 6.<a id="endnote-6"></a>
    Source: ibm.com  
    Link:<a href="https://www.ibm.com/think/news/hidden-incentives-driving-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/news/hidden-incentives-driving-ai-hallucinations</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The hidden incentives driving AI hallucinationsWhat happens when large language models are trained to provide [wrong answers](&amp;#123;&amp;#123; &#x27;wrong-answers/&#x27; | relative_url &amp;#125;&amp;#125;) instead of...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The hidden incentives driving AI hallucinationsWhat happens when large language models are trained to provide [wrong answers]({{ 'wrong-answers/' | relative_url }}) instead of...</p></details>
 
 7.<a id="endnote-7"></a>
    Source: arxiv.org  

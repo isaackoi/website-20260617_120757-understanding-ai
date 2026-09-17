@@ -823,7 +823,7 @@ This hybrid model reflects a broader pattern in artificial intelligence. AI ofte
 10.<a id="endnote-10"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8391184/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8391184/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Risks of Machine Translations of Public Health...by W Xie · 2021 · Cited by 10 — We aimed to develop [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) classifiers as a r...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risks of Machine Translations of Public Health...by W Xie · 2021 · Cited by 10 — We aimed to develop [machine learning]({{ 'machine-learning/' | relative_url }}) classifiers as a r...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: pmc.ncbi.nlm.nih.gov  

@@ -805,7 +805,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
 2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/1901.01092" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1901.01092</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>What do Support Analysts Know about Their Customers? On the Study and [Prediction](&amp;#123;&amp;#123; &#x27;error-harms/&#x27; | relative_url &amp;#125;&amp;#125;) of Support Ticket Escalations in Large Software Org...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What do Support Analysts Know about Their Customers? On the Study and [Prediction]({{ 'error-harms/' | relative_url }}) of Support Ticket Escalations in Large Software Org...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: usefini.com  
@@ -877,7 +877,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
 
 14.<a id="endnote-14"></a>
    Source: docs.bmc.com  
-   Title: Resolving tickets with the help of [Agent assist](&#123;&#123; 'agent-assist/' | relative_url &#125;&#125;)  
+   Title: Resolving tickets with the help of [Agent assist]({{ 'agent-assist/' | relative_url }})  
    Link:<a href="https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/" target="_blank" rel="noopener noreferrer nofollow">https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>BMC DocumentationMay 5, 2026...</p></details>
    Published: May 5, 2026  

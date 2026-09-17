@@ -760,7 +760,7 @@ The deeper lesson was that advances in artificial intelligence do not come solel
 
 2.<a id="endnote-2"></a>
    Source: Wikipedia  
-   Title: [Alex Net](&#123;&#123; 'alex-net/' | relative_url &#125;&#125;)  
+   Title: [Alex Net]({{ 'alex-net/' | relative_url }})  
    Link:<a href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/AlexNet</a>  
 
 3.<a id="endnote-3"></a>
@@ -786,7 +786,7 @@ The deeper lesson was that advances in artificial intelligence do not come solel
 
 7.<a id="endnote-7"></a>
    Source: developer.nvidia.com  
-   Title: [inference](&#123;&#123; 'inference-test/' | relative_url &#125;&#125;) next step gpu accelerated deep learning  
+   Title: [inference]({{ 'inference-test/' | relative_url }}) next step gpu accelerated deep learning  
    Link:<a href="https://developer.nvidia.com/blog/inference-next-step-gpu-accelerated-deep-learning/" target="_blank" rel="noopener noreferrer nofollow">https://developer.nvidia.com/blog/inference-next-step-gpu-accelerated-deep-learning/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>nvidia.comInference: The Next Step in GPU-Accelerated Deep LearningNov 11, 2015 — In particular, the NVIDIA GeForce GTX Titan X delivers...</p></details>
 

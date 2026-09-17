@@ -768,7 +768,7 @@ Nevertheless, the historical significance of the Transformer remains clear. Its 
 
 4.<a id="endnote-4"></a>
    Source: Wikipedia  
-   Title: Transformer ([deep learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;))  
+   Title: Transformer ([deep learning]({{ 'deep-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
 
 5.<a id="endnote-5"></a>
@@ -825,7 +825,7 @@ Nevertheless, the historical significance of the Transformer remains clear. Its 
 14.<a id="endnote-14"></a>
    Source: itpro.com  
    Link:<a href="https://www.itpro.com/infrastructure/what-is-a-tensor-processing-unit-tpu" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/infrastructure/what-is-a-tensor-processing-unit-tpu</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>TPUs are designed specifically to accelerate [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) tasks, particularly large-scale training and [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>TPUs are designed specifically to accelerate [machine learning]({{ 'machine-learning/' | relative_url }}) tasks, particularly large-scale training and [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: smythstoys.com  

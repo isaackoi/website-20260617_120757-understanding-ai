@@ -850,7 +850,7 @@ As a result, the words people choose are not merely instructions for retrieving 
 
 11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Title: arXiv Conv GQR: [Generative](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) Query Reformulation for Conversational Search  
+   Title: arXiv Conv GQR: [Generative]({{ 'generative-ai/' | relative_url }}) Query Reformulation for Conversational Search  
    Link:<a href="https://arxiv.org/abs/2305.15645" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.15645</a>  
 
 12.<a id="endnote-12"></a>

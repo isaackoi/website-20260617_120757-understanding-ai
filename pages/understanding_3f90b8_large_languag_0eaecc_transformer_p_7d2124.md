@@ -777,7 +777,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
    Source: Wikipedia  
    Title: Attention Is All You Need  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need&quot;Attention Is All You Need&quot; is a 2017 research paper in [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) authored by eight scientists and eng...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need&quot;Attention Is All You Need&quot; is a 2017 research paper in [machine learning]({{ 'machine-learning/' | relative_url }}) authored by eight scientists and eng...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: arxiv.org  

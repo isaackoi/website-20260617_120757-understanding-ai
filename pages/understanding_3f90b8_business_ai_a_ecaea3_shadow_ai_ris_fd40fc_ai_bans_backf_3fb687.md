@@ -813,7 +813,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
 
 6.<a id="endnote-6"></a>
    Source: microsoft.com  
-   Title: www.microsoft.com [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) in Real-World Workplaces  
+   Title: www.microsoft.com [Generative AI]({{ 'generative-ai/' | relative_url }}) in Real-World Workplaces  
    Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Real-World WorkplacesApril 15, 2026...</p></details>
    Published: April 15, 2026  

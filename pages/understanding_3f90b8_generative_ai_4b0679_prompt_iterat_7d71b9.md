@@ -944,7 +944,7 @@ That loop now appears in text generation, image creation, coding assistance, des
 17.<a id="endnote-17"></a>
    Source: www-cdn.anthropic.com  
    Link:<a href="https://www-cdn.anthropic.com/2db91550aa050eae0f205b04c908cd32ec1dab4b.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www-cdn.anthropic.com/2db91550aa050eae0f205b04c908cd32ec1dab4b.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>to production: Best practices for implementing AIVisit docs.anthropic.com to explore our comprehensive developer [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) and cookbo...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to production: Best practices for implementing AIVisit docs.anthropic.com to explore our comprehensive developer [documentation]({{ 'paper-safety/' | relative_url }}) and cookbo...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: anthropic.com  
@@ -997,7 +997,7 @@ That loop now appears in text generation, image creation, coding assistance, des
    Source: docs.gitlab.com  
    Title: prompt engineering  
    Link:<a href="https://docs.gitlab.com/development/ai_features/prompt_engineering/" target="_blank" rel="noopener noreferrer nofollow">https://docs.gitlab.com/development/ai_features/prompt_engineering/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Engineering GuideThis guide outlines the key aspects of prompt engineering when working with Large [Language Models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) (LLMs), including prom...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Engineering GuideThis guide outlines the key aspects of prompt engineering when working with Large [Language Models]({{ 'language-models/' | relative_url }}) (LLMs), including prom...</p></details>
 
 ### Additional References
 
@@ -1044,7 +1044,7 @@ That loop now appears in text generation, image creation, coding assistance, des
 35.<a id="endnote-35"></a>
    Source: reddit.com  
    Link:<a href="https://www.reddit.com/r/AgentsOfAI/comments/1m4zea8/anthropic_just_released_a_prompting_guide_for/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AgentsOfAI/comments/1m4zea8/anthropic_just_released_a_prompting_guide_for/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>eparate versions/frameworks that work for specific [use cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#125;&amp;#125;). Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>eparate versions/frameworks that work for specific [use cases]({{ 'use-cases/' | relative_url }}). Read more...</p></details>
 
 36.<a id="endnote-36"></a>
    Source: youtube.com  

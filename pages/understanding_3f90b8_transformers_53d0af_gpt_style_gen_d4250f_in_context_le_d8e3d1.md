@@ -815,7 +815,7 @@ This capability sits at the centre of modern prompting. It explains why the same
    Source: yacinemahdid.com  
    Title: whats in context learning in deep  
    Link:<a href="https://www.yacinemahdid.com/p/whats-in-context-learning-in-deep" target="_blank" rel="noopener noreferrer nofollow">https://www.yacinemahdid.com/p/whats-in-context-learning-in-deep</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>What&#x27;s In-Context Learning in [Deep Learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) and Why Is...20 Aug 2024 — In-context learning is loosely defined as showing a few examples...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What&#x27;s In-Context Learning in [Deep Learning]({{ 'deep-learning/' | relative_url }}) and Why Is...20 Aug 2024 — In-context learning is loosely defined as showing a few examples...</p></details>
 
 5.<a id="endnote-5"></a>
    Source: arxiv.org  

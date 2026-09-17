@@ -737,7 +737,7 @@ Awkward token splits matter because language models learn and generate through t
    Source: openreview.net  
    Title: Open Review Are you going to finish that?  
    Link:<a href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=b7KgXWA7gq</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the...by H Xu — This paper quantifies the [tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) boundary problem in realistic prompts across three domains w...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the...by H Xu — This paper quantifies the [tokenization]({{ 'tokenization/' | relative_url }}) boundary problem in realistic prompts across three domains w...</p></details>
 
 2.<a id="endnote-2"></a>
    Source: arxiv.org  
@@ -823,7 +823,7 @@ Awkward token splits matter because language models learn and generate through t
    Source: biorxiv.org  
    Title: 2024.09.09.612081v2.full text  
    Link:<a href="https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text" target="_blank" rel="noopener noreferrer nofollow">https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>A Comparison of Tokenization Impact in [Attention](&amp;#123;&amp;#123; &#x27;attention/&#x27; | relative_url &amp;#125;&amp;#125;) Based...17 Sept 2024 — This study explores the impact of tokenization in attention-base...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Comparison of Tokenization Impact in [Attention]({{ 'attention/' | relative_url }}) Based...17 Sept 2024 — This study explores the impact of tokenization in attention-base...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: machinelearningmastery.com  

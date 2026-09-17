@@ -887,7 +887,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
    Source: youtube.com  
    Title: Why Most Production RAG Systems Fail (Even When Metrics Look Fine)  
    Link:<a href="https://www.youtube.com/watch?v=nrkDls9ETPU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nrkDls9ETPU</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers](&amp;#123;&amp;#123; &#x27;wrong-answers/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers]({{ 'wrong-answers/' | relative_url }})...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: youtube.com  
@@ -905,7 +905,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
    Source: youtube.com  
    Title: Seven RAG Failures and How to Solve Them  
    Link:<a href="https://www.youtube.com/watch?v=8wTTl7DZtpk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8wTTl7DZtpk</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Is Your RAG Pipeline Failing? How to Stop AI [Hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is Your RAG Pipeline Failing? How to Stop AI [Hallucinations]({{ 'hallucinations/' | relative_url }})...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: youtube.com  

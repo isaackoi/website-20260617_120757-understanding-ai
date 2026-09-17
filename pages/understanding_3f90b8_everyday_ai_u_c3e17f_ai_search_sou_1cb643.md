@@ -826,7 +826,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
 10.<a id="endnote-10"></a>
    Source: reuters.com  
    Link:<a href="https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) for any false claims...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible]({{ 'responsible-ai/' | relative_url }}) for any false claims...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: google.com  
@@ -881,7 +881,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
 20.<a id="endnote-20"></a>
    Source: Wikipedia  
    Link:<a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation]({{ 'routes/' | relative_url }}) applications, email services, office suites, online vid...</p></details>
 
 ### Additional References
 

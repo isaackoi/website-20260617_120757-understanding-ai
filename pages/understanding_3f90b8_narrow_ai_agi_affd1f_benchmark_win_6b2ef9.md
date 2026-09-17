@@ -908,7 +908,7 @@ What they do not show is that AI has solved the broader challenge of general int
    Source: hub.stabilarity.com  
    Title: the measurement crisis saturation goodharts law and the end of ai leaderboards  
    Link:<a href="https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/" target="_blank" rel="noopener noreferrer nofollow">https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Measurement Crisis: Saturation, Goodhart&#x27;s Law, and the...13 Mar 2026 — We show that [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) deployment metrics from our Cost-Effective...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measurement Crisis: Saturation, Goodhart&#x27;s Law, and the...13 Mar 2026 — We show that [business]({{ 'business-adoption/' | relative_url }}) deployment metrics from our Cost-Effective...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: forum.gnoppix.org  

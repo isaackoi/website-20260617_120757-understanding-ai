@@ -808,7 +808,7 @@ AI prediction errors become practical harms when organisations attach actions to
    Source: nvlpubs.nist.gov  
    Title: NIST.AI.100 2e2025  
    Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;): A Taxonomy and Terminology...by A Vassilev · 2025 · Cited by 39 — This NIST Trustworthy and Responsible AI report prov...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Machine Learning]({{ 'machine-learning/' | relative_url }}): A Taxonomy and Terminology...by A Vassilev · 2025 · Cited by 39 — This NIST Trustworthy and Responsible AI report prov...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: epic.org  
@@ -869,7 +869,7 @@ AI prediction errors become practical harms when organisations attach actions to
 25.<a id="endnote-25"></a>
    Source: site.unibo.it  
    Link:<a href="https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf" target="_blank" rel="noopener noreferrer nofollow">https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management FrameworkEvaluate the rate of false positives and false negatives in content [provenance](&amp;#123;&amp;#123; &#x27;provenance/&#x27; | relative_url &amp;#125;&amp;#125;), as well as true pos...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management FrameworkEvaluate the rate of false positives and false negatives in content [provenance]({{ 'provenance/' | relative_url }}), as well as true pos...</p></details>
 
 26.<a id="endnote-26"></a>
    Source: bundeswirtschaftsministerium.de  

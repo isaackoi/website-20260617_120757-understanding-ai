@@ -844,7 +844,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
    Source: mbrenndoerfer.com  
    Title: hallucination mitigation  
    Link:<a href="https://mbrenndoerfer.com/writing/hallucination-mitigation" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/hallucination-mitigation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferHallucination Mitigation: RAG, [Decoding](&amp;#123;&amp;#123; &#x27;decoding/&#x27; | relative_url &amp;#125;&amp;#125;), and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferHallucination Mitigation: RAG, [Decoding]({{ 'decoding/' | relative_url }}), and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</p></details>
 
 19.<a id="endnote-19"></a>
    Source: dictionary.cambridge.org  
@@ -865,7 +865,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
    Source: reddit.com  
    Title: Why Language Models Hallucinate  
    Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAi pseudo paperThe [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) are based on whatever is said to be true. The model has no ability to reason at all (CoT is not reason...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAi pseudo paperThe [predictions]({{ 'predictions/' | relative_url }}) are based on whatever is said to be true. The model has no ability to reason at all (CoT is not reason...</p></details>
 
 23.<a id="endnote-23"></a>
    Source: computerworld.com  

@@ -787,12 +787,12 @@ In the case of face AI, the headline numbers were not necessarily wrong. They we
    Source: nist.gov  
    Title: facial recognition technology part iii ensuring commercial transparency accuracy  
    Link:<a href="https://www.nist.gov/speech-testimony/facial-recognition-technology-part-iii-ensuring-commercial-transparency-accuracy" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/speech-testimony/facial-recognition-technology-part-iii-ensuring-commercial-transparency-accuracy</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Facial Recognition Technology (Part III): Ensuring...Jan 15, 2020 — For most algorithms, the NIST study measured higher [false positives](&amp;#123;&amp;#123; &#x27;false-positives/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Facial Recognition Technology (Part III): Ensuring...Jan 15, 2020 — For most algorithms, the NIST study measured higher [false positives]({{ 'false-positives/' | relative_url }})...</p></details>
 
 8.<a id="endnote-8"></a>
    Source: proceedings.mlr.press  
    Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10870...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning]({{ 'machine-learning/' | relative_url }}) ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10870...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: proceedings.mlr.press  

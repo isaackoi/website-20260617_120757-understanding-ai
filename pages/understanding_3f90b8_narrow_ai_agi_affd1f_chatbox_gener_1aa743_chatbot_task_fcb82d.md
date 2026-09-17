@@ -791,7 +791,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
    Source: community.make.com  
    Title: openai assistants with function calling  
    Link:<a href="https://community.make.com/t/openai-assistants-with-function-calling/55083" target="_blank" rel="noopener noreferrer nofollow">https://community.make.com/t/openai-assistants-with-function-calling/55083</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>assistants with function calling - Questions15 Sept 2024 — Here is the [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) that will give you directions how to get started wit...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>assistants with function calling - Questions15 Sept 2024 — Here is the [documentation]({{ 'paper-safety/' | relative_url }}) that will give you directions how to get started wit...</p></details>
 
 8.<a id="endnote-8"></a>
    Source: arxiv.org  

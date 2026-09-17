@@ -915,7 +915,7 @@ As [shadow AI]({{ 'shadow-ai/' | relative_url }}) adoption grows, the central go
 
 13.<a id="endnote-13"></a>
    Source: reddit.com  
-   Title: [responsible ai](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) model evaluations 9 weeks of llm  
+   Title: [responsible ai]({{ 'responsible-ai/' | relative_url }}) model evaluations 9 weeks of llm  
    Link:<a href="https://www.reddit.com/r/NISTControls/comments/1tubu2e/responsible_ai_model_evaluations_9_weeks_of_llm/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/NISTControls/comments/1tubu2e/responsible_ai_model_evaluations_9_weeks_of_llm/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Model Evaluations: 9 weeks of LLM red-team data, mapped directly to NIST AI RMFJune 2, 2026...</p></details>
    Published: June 2, 2026  

@@ -766,7 +766,7 @@ Understanding shortcut learning therefore helps explain a central challenge in a
 4.<a id="endnote-4"></a>
    Source: ijcai.org  
    Link:<a href="https://www.ijcai.org/proceedings/2023/0560.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ijcai.org/proceedings/2023/0560.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>s often take dataset biases as a shortcut to make [decisions](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) rather than understand tasks, lead- ing to...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>s often take dataset biases as a shortcut to make [decisions]({{ 'decisions/' | relative_url }}) rather than understand tasks, lead- ing to...Read more...</p></details>
 
 5.<a id="endnote-5"></a>
    Source: medrxiv.org  
@@ -796,7 +796,7 @@ Understanding shortcut learning therefore helps explain a central challenge in a
 10.<a id="endnote-10"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/pdf/2004.07780" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2004.07780</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) has triggered the current rise of artificial intelligence and is the workhorse of today&#x27;s machine intelligence.Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Deep learning]({{ 'deep-learning/' | relative_url }}) has triggered the current rise of artificial intelligence and is the workhorse of today&#x27;s machine intelligence.Read more...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: openreview.net  

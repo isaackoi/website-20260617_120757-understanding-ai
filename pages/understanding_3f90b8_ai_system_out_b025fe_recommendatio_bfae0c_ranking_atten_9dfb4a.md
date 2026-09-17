@@ -792,7 +792,7 @@ When recommendation systems control rankings, they control access to attention. 
 
 10.<a id="endnote-10"></a>
    Source: knightcolumbia.org  
-   Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) social media recommendation algorithms  
+   Title: [understanding]({{ 'understanding/' | relative_url }}) social media recommendation algorithms  
    Link:<a href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</p></details>
 
@@ -834,7 +834,7 @@ When recommendation systems control rankings, they control access to attention. 
 17.<a id="endnote-17"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Position Bias in Recommender Systems for Digital LibrariesFor example, position bias in [search rankings](&amp;#123;&amp;#123; &#x27;search-ranking/&#x27; | relative_url &amp;#125;&amp;#125;) strongly influences how many clic...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Position Bias in Recommender Systems for Digital LibrariesFor example, position bias in [search rankings]({{ 'search-ranking/' | relative_url }}) strongly influences how many clic...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: academiccommons.columbia.edu  

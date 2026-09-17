@@ -791,7 +791,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
 
 8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Title: arXiv Does AI [Code Review](&#123;&#123; 'code-review/' | relative_url &#125;&#125;) Lead to Code Changes? A Case Study of Git Hub Actions  
+   Title: arXiv Does AI [Code Review]({{ 'code-review/' | relative_url }}) Lead to Code Changes? A Case Study of Git Hub Actions  
    Link:<a href="https://arxiv.org/abs/2508.18771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.18771</a>  
 
 9.<a id="endnote-9"></a>

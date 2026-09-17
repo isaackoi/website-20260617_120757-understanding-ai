@@ -839,7 +839,7 @@ In practical terms, token counts act as both the memory budget and the spending 
    Source: community.openai.com  
    Title: 4096 response limit vs 128 000 context window  
    Link:<a href="https://community.openai.com/t/4096-response-limit-vs-128-000-context-window/656864" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/4096-response-limit-vs-128-000-context-window/656864</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>and it is shared for all language [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;). The only thing confusing is that...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and it is shared for all language [inference]({{ 'inference-test/' | relative_url }}). The only thing confusing is that...Read more...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: community.openai.com  
@@ -862,7 +862,7 @@ In practical terms, token counts act as both the memory budget and the spending 
 13.<a id="endnote-13"></a>
    Source: businessinsider.com  
    Link:<a href="https://www.businessinsider.com/ai-spending-roi-concerns-tokenmaxxing-uber-coo-andrew-macdonald-reaction" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/ai-spending-roi-concerns-tokenmaxxing-uber-coo-andrew-macdonald-reaction</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Uber COO Andrew Macdonald voiced doubts about AI driving [meaningful](&amp;#123;&amp;#123; &#x27;human-review/&#x27; | relative_url &amp;#125;&amp;#125;) productivity gains, echoing Uber CTO’s earlier comments about exhaust...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Uber COO Andrew Macdonald voiced doubts about AI driving [meaningful]({{ 'human-review/' | relative_url }}) productivity gains, echoing Uber CTO’s earlier comments about exhaust...</p></details>
 
 14.<a id="endnote-14"></a>
    Source: github.com  
@@ -997,7 +997,7 @@ In practical terms, token counts act as both the memory budget and the spending 
 
 38.<a id="endnote-38"></a>
    Source: dev.to  
-   Title: llm context windows managing tokens in [production](&#123;&#123; 'retrieval-failures/' | relative_url &#125;&#125;) ai apps 11l  
+   Title: llm context windows managing tokens in [production]({{ 'retrieval-failures/' | relative_url }}) ai apps 11l  
    Link:<a href="https://dev.to/whoffagents/llm-context-windows-managing-tokens-in-production-ai-apps-11l" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/whoffagents/llm-context-windows-managing-tokens-in-production-ai-apps-11l</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Context Windows: Managing Tokens in Production AI...7 Apr 2026 — LLM Context Windows: Managing Tokens in Production AI Apps · The To...</p></details>
 

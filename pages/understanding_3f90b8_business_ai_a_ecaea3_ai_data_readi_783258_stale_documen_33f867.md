@@ -869,7 +869,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
 
 9.<a id="endnote-9"></a>
    Source: learn.microsoft.com  
-   Title: RA G and [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;)  
+   Title: RA G and [Generative AI]({{ 'generative-ai/' | relative_url }})  
    Link:<a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>RAG and Generative AI - Azure AI Search | Microsoft LearnJanuary 15, 2026...</p></details>
    Published: January 15, 2026  
@@ -927,7 +927,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
 
 18.<a id="endnote-18"></a>
    Source: youtube.com  
-   Title: Eliminate AI [Hallucinations](&#123;&#123; 'hallucinations/' | relative_url &#125;&#125;): TIBCO Business Works™ Plugin for AI (RAG Deep Dive)  
+   Title: Eliminate AI [Hallucinations]({{ 'hallucinations/' | relative_url }}): TIBCO Business Works™ Plugin for AI (RAG Deep Dive)  
    Link:<a href="https://www.youtube.com/watch?v=XZ2rqOlHNWQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=XZ2rqOlHNWQ</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Stop Using RAG as Memory — Daniel Chalef, Zep...</p></details>
 

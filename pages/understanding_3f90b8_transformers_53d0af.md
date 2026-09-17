@@ -849,7 +849,7 @@ The most important takeaway is not that attention is magic. It is that Transform
 
 8.<a id="endnote-8"></a>
    Source: cdn.openai.com  
-   Title: Open AI CDNImproving Language Understanding by [Generative](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) Pre  
+   Title: Open AI CDNImproving Language Understanding by [Generative]({{ 'generative-ai/' | relative_url }}) Pre  
    Link:<a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf</a>  
 
 9.<a id="endnote-9"></a>
@@ -1017,7 +1017,7 @@ The most important takeaway is not that attention is magic. It is that Transform
 
 46.<a id="endnote-46"></a>
    Source: Wikipedia  
-   Title: Attention ([machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;))  
+   Title: Attention ([machine learning]({{ 'machine-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
 
 47.<a id="endnote-47"></a>

@@ -905,7 +905,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
    Source: pymnts.com  
    Title: mastercard says new ai model ups fraud detection by 20percent  
    Link:<a href="https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/" target="_blank" rel="noopener noreferrer nofollow">https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Says New AI Model Ups Fraud Detection by 20%Feb 1, 2024 — Mastercard has introduced a [generative](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) artificial intelligence (AI)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Says New AI Model Ups Fraud Detection by 20%Feb 1, 2024 — Mastercard has introduced a [generative]({{ 'generative-ai/' | relative_url }}) artificial intelligence (AI)...</p></details>
 
 27.<a id="endnote-27"></a>
    Source: fintechfutures.com  

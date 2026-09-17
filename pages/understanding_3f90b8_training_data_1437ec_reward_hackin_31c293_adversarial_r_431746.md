@@ -821,7 +821,7 @@ Adversarial testing helps uncover these weaknesses before users encounter them. 
 10.<a id="endnote-10"></a>
    Source: adversarial.com  
    Link:<a href="https://adversarial.com/" target="_blank" rel="noopener noreferrer nofollow">https://adversarial.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>World-class cybersecurity governance programs, tools, and guidance. Decades of world-class cyber success in [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;)-friendly...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World-class cybersecurity governance programs, tools, and guidance. Decades of world-class cyber success in [business]({{ 'business-adoption/' | relative_url }})-friendly...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: arxiv.org  

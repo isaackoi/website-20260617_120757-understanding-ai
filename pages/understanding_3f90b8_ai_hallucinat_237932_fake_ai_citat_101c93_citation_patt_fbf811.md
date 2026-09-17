@@ -787,7 +787,7 @@ This is why fake citations sound so real. They are not random errors. They are t
 
 8.<a id="endnote-8"></a>
    Source: legalclarity.org  
-   Title: Legal Clarity Mata v. Avianca: Fake Cases, Chat GPT, and [Sanctions](&#123;&#123; 'sanctions/' | relative_url &#125;&#125;)  
+   Title: Legal Clarity Mata v. Avianca: Fake Cases, Chat GPT, and [Sanctions]({{ 'sanctions/' | relative_url }})  
    Link:<a href="https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarity...</p></details>
 
@@ -812,7 +812,7 @@ This is why fake citations sound so real. They are not random errors. They are t
 12.<a id="endnote-12"></a>
    Source: pcgamer.com  
    Link:<a href="https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/" target="_blank" rel="noopener noreferrer nofollow">https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Attorneys Kathleen M. Wilson and Kathryn Y. Williams used [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and did not verify the fictitious legal references it produced. T...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attorneys Kathleen M. Wilson and Kathryn Y. Williams used [generative AI]({{ 'generative-ai/' | relative_url }}) and did not verify the fictitious legal references it produced. T...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: reddit.com  

@@ -753,7 +753,7 @@ That lesson extended far beyond images. The success of learned visual representa
 
 1.<a id="endnote-1"></a>
    Source: medium.com  
-   Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) alexnet the 2012 breakthrough that redefined ai d0e267e2470a  
+   Title: [understanding]({{ 'understanding/' | relative_url }}) alexnet the 2012 breakthrough that redefined ai d0e267e2470a  
    Link:<a href="https://medium.com/%40igquinteroch/understanding-alexnet-the-2012-breakthrough-that-redefined-ai-d0e267e2470a" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40igquinteroch/understanding-alexnet-the-2012-breakthrough-that-redefined-ai-d0e267e2470a</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding AlexNet: The 2012 Breakthrough That...The winning methods usually combined multiple hand-engineered features fed int...</p></details>
 
@@ -781,7 +781,7 @@ That lesson extended far beyond images. The success of learned visual representa
 
 6.<a id="endnote-6"></a>
    Source: vizuaranewsletter.com  
-   Title: How [Alex Net](&#123;&#123; 'alex-net/' | relative_url &#125;&#125;) changed the trajectory of Computer Vision  
+   Title: How [Alex Net]({{ 'alex-net/' | relative_url }}) changed the trajectory of Computer Vision  
    Link:<a href="https://www.vizuaranewsletter.com/p/how-alexnet-changed-the-trajectory" target="_blank" rel="noopener noreferrer nofollow">https://www.vizuaranewsletter.com/p/how-alexnet-changed-the-trajectory</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>How AlexNet changed the trajectory of Computer VisionMay 10, 2025 — Before AlexNet, image classification was a painstaking affair involvi...</p></details>
    Published: May 10, 2025  
@@ -914,7 +914,7 @@ That lesson extended far beyond images. The success of learned visual representa
 
 31.<a id="endnote-31"></a>
    Source: youtube.com  
-   Title: C3.13 | SIFT vs HOG | Object Detection | [Machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;) | Computer Vision  
+   Title: C3.13 | SIFT vs HOG | Object Detection | [Machine learning]({{ 'machine-learning/' | relative_url }}) | Computer Vision  
    Link:<a href="https://www.youtube.com/watch?v=Z2ml7WzCrJ8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Z2ml7WzCrJ8</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>2012 AlexNet and the Deep Learning Revolution - YouTube 2012 AlexNet and the Deep Learning Revolution - YouTube...</p></details>
 

@@ -822,7 +822,7 @@ The central reason self-attention trains faster than recurrence is therefore not
 
 17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Title: [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;) NYC  
+   Title: [Deep Learning]({{ 'deep-learning/' | relative_url }}) NYC  
    Link:<a href="https://www.youtube.com/watch?v=jYBNtt9X-FM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jYBNtt9X-FM</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Pretraining Recurrent Networks without Recurrence (Jun 2026) - YouTube Pretraining Recurrent Networks without Recurrence (Jun 2026) - You...</p></details>
 

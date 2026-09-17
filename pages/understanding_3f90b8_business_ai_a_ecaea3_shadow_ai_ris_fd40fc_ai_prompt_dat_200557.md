@@ -778,7 +778,7 @@ As organisations adopt AI more broadly, [understanding]({{ 'understanding/' | re
 
 2.<a id="endnote-2"></a>
    Source: GOV.UK  
-   Title: [Withdrawn] [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) Framework for HMG (HTML)  
+   Title: [Withdrawn] [Generative AI]({{ 'generative-ai/' | relative_url }}) Framework for HMG (HTML)  
    Link:<a href="https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html/" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/generative-ai-framework-for-hmg/generative-ai-framework-for-hmg-html/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>18, 2024...</p></details>
 

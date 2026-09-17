@@ -963,7 +963,7 @@ This distinction is becoming increasingly important as organisations move beyond
    Source: bcg.com  
    Title: how ai is paying off in the tech function  
    Link:<a href="https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow AI Is Paying Off in the Tech Function6 Jan 2026 — Value-creating use cases in tech often relate to [automation](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;) and efficienc...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow AI Is Paying Off in the Tech Function6 Jan 2026 — Value-creating use cases in tech often relate to [automation]({{ 'automation-bias/' | relative_url }}) and efficienc...</p></details>
 
 7.<a id="endnote-7"></a>
    Source: nist.gov  
@@ -1003,7 +1003,7 @@ This distinction is becoming increasingly important as organisations move beyond
 
 13.<a id="endnote-13"></a>
    Source: bcg.com  
-   Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) every model has a point of view  
+   Title: [understanding]({{ 'understanding/' | relative_url }}) every model has a point of view  
    Link:<a href="https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>30 Jan 2026 — The Path to Generative AI Value Begins with a Workforce Diagnostic. Generative AI presents both benefits and challenges to...</p></details>
 

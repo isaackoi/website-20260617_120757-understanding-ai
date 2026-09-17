@@ -863,7 +863,7 @@ Perhaps the most important lesson is narrower. The spread of Transformers from t
 21.<a id="endnote-21"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8592092/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8592092/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>by J Skolnick · 2021 · Cited by 323 — Using novel [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;), AF2 predicted the structures of many difficult protein targets at or...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by J Skolnick · 2021 · Cited by 323 — Using novel [deep learning]({{ 'deep-learning/' | relative_url }}), AF2 predicted the structures of many difficult protein targets at or...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: pmc.ncbi.nlm.nih.gov  

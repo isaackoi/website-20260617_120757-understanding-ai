@@ -921,7 +921,7 @@ For anyone trying to understand artificial intelligence, the key insight is simp
 29.<a id="endnote-29"></a>
    Source: learn.microsoft.com  
    Link:<a href="https://learn.microsoft.com/en-us/azure/developer/ai/gen-ai-concepts-considerations-developers" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/developer/ai/gen-ai-concepts-considerations-developers</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>concepts and considerations in [generative](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) AIJan 30, 2026 — Tokenization is the process of breaking text into tokens—the smallest units a...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>concepts and considerations in [generative]({{ 'generative-ai/' | relative_url }}) AIJan 30, 2026 — Tokenization is the process of breaking text into tokens—the smallest units a...</p></details>
 
 30.<a id="endnote-30"></a>
    Source: learn.microsoft.com  
