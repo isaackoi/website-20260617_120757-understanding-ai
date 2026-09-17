@@ -4,7 +4,7 @@ title_full: Beyond text Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-transformers/
+permalink: /understanding-3f90b8-transformers-beyond-text/
 description: Focused pages that expand on Beyond text.
 date: '2026'
 layout: default

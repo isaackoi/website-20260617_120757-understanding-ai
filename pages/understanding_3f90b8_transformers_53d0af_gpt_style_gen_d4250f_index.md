@@ -4,7 +4,7 @@ title_full: GPT generators Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-transformers/
+permalink: /understanding-3f90b8-transformers-gpt-generators/
 description: Focused pages that expand on GPT generators.
 date: '2026'
 layout: default

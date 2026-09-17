@@ -4,7 +4,7 @@ title_full: Speech cues Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-deep-learning/
+permalink: /understanding-3f90b8-deep-learning-speech-cues/
 description: Focused pages that expand on Speech cues.
 date: '2026'
 layout: default

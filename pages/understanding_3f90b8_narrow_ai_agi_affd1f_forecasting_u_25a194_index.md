@@ -4,7 +4,7 @@ title_full: Forecasting gap Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-narrow-ai-agi/
+permalink: /understanding-3f90b8-narrow-ai-agi-forecasting-gap/
 description: Focused pages that expand on Forecasting gap.
 date: '2026'
 layout: default

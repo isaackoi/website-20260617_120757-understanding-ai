@@ -4,7 +4,7 @@ title_full: Fraud Flags Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-everyday-ai-u/
+permalink: /understanding-3f90b8-everyday-ai-u-fraud-flags/
 description: Focused pages that expand on Fraud Flags.
 date: '2026'
 layout: default

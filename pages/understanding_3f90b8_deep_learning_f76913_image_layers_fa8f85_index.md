@@ -4,7 +4,7 @@ title_full: Image layers Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-deep-learning/
+permalink: /understanding-3f90b8-deep-learning-image-layers/
 description: Focused pages that expand on Image layers.
 date: '2026'
 layout: default

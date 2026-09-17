@@ -4,7 +4,7 @@ title_full: Prompt Loops Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-generative-ai/
+permalink: /understanding-3f90b8-generative-ai-prompt-loops/
 description: Focused pages that expand on Prompt Loops.
 date: '2026'
 layout: default

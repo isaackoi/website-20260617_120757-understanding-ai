@@ -4,7 +4,7 @@ title_full: Routes Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-everyday-ai-u/
+permalink: /understanding-3f90b8-everyday-ai-u-routes/
 description: Focused pages that expand on Routes.
 date: '2026'
 layout: default

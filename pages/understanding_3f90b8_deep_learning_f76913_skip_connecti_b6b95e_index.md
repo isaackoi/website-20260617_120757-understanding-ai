@@ -4,7 +4,7 @@ title_full: Skip links Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-deep-learning/
+permalink: /understanding-3f90b8-deep-learning-skip-links/
 description: Focused pages that expand on Skip links.
 date: '2026'
 layout: default
