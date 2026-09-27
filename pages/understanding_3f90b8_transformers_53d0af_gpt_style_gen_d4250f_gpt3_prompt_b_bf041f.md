@@ -758,7 +758,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
    Source: arxiv.org  
    Title: arXiv Line Goes Up?  
    Link:<a href="https://arxiv.org/html/2502.14318v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2502.14318v1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Inherent Limitations of Benchmarks for...20 Feb 2025 — This so-called task [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;) has been found to be responsible for about a 20...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Inherent Limitations of Benchmarks for...20 Feb 2025 — This so-called task [contamination]({{ 'contamination/' | relative_url }}) has been found to be responsible for about a 20...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: milvus.io  
@@ -823,7 +823,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
 21.<a id="endnote-21"></a>
    Source: youtube.com  
    Link:<a href="https://www.youtube.com/watch?v=0juvbDj4Xns" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0juvbDj4Xns</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt...In this video, we&#x27;ll be exploring the intersection of Sci-Fi and [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt...In this video, we&#x27;ll be exploring the intersection of Sci-Fi and [Generative AI]({{ 'generative-ai/' | relative_url }})...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: youtube.com  

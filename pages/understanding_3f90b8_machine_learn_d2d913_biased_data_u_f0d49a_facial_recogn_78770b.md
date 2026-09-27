@@ -754,7 +754,7 @@ The debate also demonstrated that bias is not always visible in headline perform
 3.<a id="endnote-3"></a>
    Source: nvlpubs.nist.gov  
    Link:<a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/nist.ir.8280.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ir/2019/nist.ir.8280.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsFace Recognition Vendor Test (FRVT), Part 3: Demographic...by P Grother · 2019 · Cited by 93 — [False positives](&amp;#123;&amp;#123; &#x27;false-positives/&#x27; | relative_url &amp;#125;&amp;#125;): Using t...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsFace Recognition Vendor Test (FRVT), Part 3: Demographic...by P Grother · 2019 · Cited by 93 — [False positives]({{ 'false-positives/' | relative_url }}): Using t...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: csis.org  

@@ -829,7 +829,7 @@ In that sense, tests and documentation function as trust infrastructure. They do
 4.<a id="endnote-4"></a>
    Source: techradar.com  
    Link:<a href="https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models]({{ 'language-models/' | relative_url }}) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
 
 5.<a id="endnote-5"></a>
    Source: brightsec.com  
@@ -942,7 +942,7 @@ In that sense, tests and documentation function as trust infrastructure. They do
    Source: checkmarx.com  
    Title: top 12 ai developer tools in 2026 for security coding and quality  
    Link:<a href="https://checkmarx.com/learn/ai-security/top-12-ai-developer-tools-in-2026-for-security-coding-and-quality/" target="_blank" rel="noopener noreferrer nofollow">https://checkmarx.com/learn/ai-security/top-12-ai-developer-tools-in-2026-for-security-coding-and-quality/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Developer Tools in 2026 for Security, Coding...11 Mar 2026 — [Code assistants](&amp;#123;&amp;#123; &#x27;code-assistants/&#x27; | relative_url &amp;#125;&amp;#125;) are AI-driven tools embedded in development envir...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Developer Tools in 2026 for Security, Coding...11 Mar 2026 — [Code assistants]({{ 'code-assistants/' | relative_url }}) are AI-driven tools embedded in development envir...</p></details>
 
 26.<a id="endnote-26"></a>
    Source: codescene.com  

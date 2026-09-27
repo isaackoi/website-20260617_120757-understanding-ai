@@ -811,7 +811,7 @@ From a governance perspective, this approach serves an important purpose. It nar
    Source: artificial-intelligence-act.com  
    Title: E U AI Act  
    Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act]({{ 'eu-ai-act/' | relative_url }}) - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: globalpolicywatch.com  
@@ -851,7 +851,7 @@ From a governance perspective, this approach serves an important purpose. It nar
    Source: Wikipedia  
    Title: European Union  
    Link:<a href="https://en.wikipedia.org/wiki/European_Union" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/European_Union</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>European UnionThe European Union (EU) is a [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) and economic union of 27 member states that are located primarily in Europe...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European UnionThe European Union (EU) is a [political]({{ 'political-video/' | relative_url }}) and economic union of 27 member states that are located primarily in Europe...</p></details>
 
 ### Additional References
 

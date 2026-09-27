@@ -782,7 +782,7 @@ For this reason, a [benchmark win]({{ 'benchmark-limits/' | relative_url }}) sho
 
 7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Title: arXiv When Benchmarks Leak: [Inference](&#123;&#123; 'inference-test/' | relative_url &#125;&#125;)-Time Decontamination for LLMs  
+   Title: arXiv When Benchmarks Leak: [Inference]({{ 'inference-test/' | relative_url }})-Time Decontamination for LLMs  
    Link:<a href="https://arxiv.org/abs/2601.19334" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2601.19334</a>  
 
 8.<a id="endnote-8"></a>
@@ -802,7 +802,7 @@ For this reason, a [benchmark win]({{ 'benchmark-limits/' | relative_url }}) sho
 11.<a id="endnote-11"></a>
    Source: openreview.net  
    Link:<a href="https://openreview.net/forum?id=Nk1MegaPuG" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=Nk1MegaPuG</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ar focus on the [adversarial](&amp;#123;&amp;#123; &#x27;stress-tests/&#x27; | relative_url &amp;#125;&amp;#125;) setting, where language models ingest test sets, making...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ar focus on the [adversarial]({{ 'stress-tests/' | relative_url }}) setting, where language models ingest test sets, making...Read more...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: openreview.net  

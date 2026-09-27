@@ -810,7 +810,7 @@ For users, the key lesson is that high scores do not automatically mean good out
 5.<a id="endnote-5"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/376394009_Loose_lips_sink_ships_Mitigating_Length_Bias_in_Reinforcement_Learning_from_Human_Feedback" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/376394009_Loose_lips_sink_ships_Mitigating_Length_Bias_in_Reinforcement_Learning_from_Human_Feedback</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Loose lips sink ships: Mitigating Length Bias in...Mar 13, 2026 — Prior work has documented [failure modes](&amp;#123;&amp;#123; &#x27;failure-modes/&#x27; | relative_url &amp;#125;&amp;#125;) in outcome-level r...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Loose lips sink ships: Mitigating Length Bias in...Mar 13, 2026 — Prior work has documented [failure modes]({{ 'failure-modes/' | relative_url }}) in outcome-level r...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: arxiv.org  
@@ -856,7 +856,7 @@ For users, the key lesson is that high scores do not automatically mean good out
    Source: alignmentforum.org  
    Title: reward hacking behavior can generalize across tasks  
    Link:<a href="https://www.alignmentforum.org/posts/Ge55vxEmKXunFFwoe/reward-hacking-behavior-can-generalize-across-tasks" target="_blank" rel="noopener noreferrer nofollow">https://www.alignmentforum.org/posts/Ge55vxEmKXunFFwoe/reward-hacking-behavior-can-generalize-across-tasks</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Alignment ForumReward hacking behavior can generalize across tasks28 May 2024 — One common failure mode of [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) training is r...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Alignment ForumReward hacking behavior can generalize across tasks28 May 2024 — One common failure mode of [machine learning]({{ 'machine-learning/' | relative_url }}) training is r...</p></details>
    Published: May 2024  
 
 14.<a id="endnote-14"></a>

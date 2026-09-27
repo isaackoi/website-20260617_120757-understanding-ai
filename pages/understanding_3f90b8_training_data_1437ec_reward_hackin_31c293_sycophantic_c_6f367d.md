@@ -758,7 +758,7 @@ For developers, the challenge is to build reward systems that value correction a
 
 1.<a id="endnote-1"></a>
    Source: anthropic.com  
-   Title: towards [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) sycophancy in language models  
+   Title: towards [understanding]({{ 'understanding/' | relative_url }}) sycophancy in language models  
    Link:<a href="https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Towards Understanding Sycophancy in Language ModelsOct 23, 2023 — Our results indicate that sycophancy is a general behavior of...</p></details>
 

@@ -753,7 +753,7 @@ The broader lesson extends beyond facial analysis. Benchmarks are not neutral sc
 3.<a id="endnote-3"></a>
    Source: proceedings.mlr.press  
    Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) ResearchGender Shades: Intersectional Accuracy Disparities in...January 21, 2018 — by J Buolamwini · 201...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning]({{ 'machine-learning/' | relative_url }}) ResearchGender Shades: Intersectional Accuracy Disparities in...January 21, 2018 — by J Buolamwini · 201...</p></details>
    Published: January 21, 2018  
 
 4.<a id="endnote-4"></a>
@@ -806,7 +806,7 @@ The broader lesson extends beyond facial analysis. Benchmarks are not neutral sc
 
 13.<a id="endnote-13"></a>
    Source: youtube.com  
-   Title: Dr. Joy Buolamwini reflects on [decoding](&#123;&#123; 'decoding/' | relative_url &#125;&#125;) algorithmic bias and the future of AI  
+   Title: Dr. Joy Buolamwini reflects on [decoding]({{ 'decoding/' | relative_url }}) algorithmic bias and the future of AI  
    Link:<a href="https://www.youtube.com/watch?v=6n3zvya2lHs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=6n3zvya2lHs</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>AJL Gender Shades 5th Anniversary Celebration...</p></details>
 

@@ -799,7 +799,7 @@ Finally, the Amazon example demonstrates that AI systems should not be evaluated
    Source: eklavvya.com  
    Title: ai myths corporates  
    Link:<a href="https://www.eklavvya.com/blog/ai-myths-corporates/" target="_blank" rel="noopener noreferrer nofollow">https://www.eklavvya.com/blog/ai-myths-corporates/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>7 AI Myths Holding Your [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) Back in 2026 (+ What Actually Works)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>7 AI Myths Holding Your [Business]({{ 'business-adoption/' | relative_url }}) Back in 2026 (+ What Actually Works)...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: youtube.com  

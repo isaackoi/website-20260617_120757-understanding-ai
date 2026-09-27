@@ -982,7 +982,7 @@ The practical mindset is straightforward: treat AI as a capable drafting assista
 30.<a id="endnote-30"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/397189383_From_Hallucination_to_Harm_Unintended_Ethical_Risks_in_Large_Language_models" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397189383_From_Hallucination_to_Harm_Unintended_Ethical_Risks_in_Large_Language_models</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) From Hallucination to Harm Unintended Ethical...Nov 3, 2025 — This research highlights the pressing need for more [responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) d...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) From Hallucination to Harm Unintended Ethical...Nov 3, 2025 — This research highlights the pressing need for more [responsible AI]({{ 'responsible-ai/' | relative_url }}) d...</p></details>
 
 31.<a id="endnote-31"></a>
    Source: rivistauniversitas.it  

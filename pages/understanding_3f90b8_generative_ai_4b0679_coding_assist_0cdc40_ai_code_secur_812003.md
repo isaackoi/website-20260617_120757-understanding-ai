@@ -816,7 +816,7 @@ Understanding artificial intelligence therefore requires understanding a broader
 
 5.<a id="endnote-5"></a>
    Source: blog.secureflag.com  
-   Title: the risks of [generative ai](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) coding in software development  
+   Title: the risks of [generative ai]({{ 'generative-ai/' | relative_url }}) coding in software development  
    Link:<a href="https://blog.secureflag.com/2024/10/16/the-risks-of-generative-ai-coding-in-software-development/" target="_blank" rel="noopener noreferrer nofollow">https://blog.secureflag.com/2024/10/16/the-risks-of-generative-ai-coding-in-software-development/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>The risks of generative AI coding in software development16 Oct 2024 — One of the most noticeable risks with AI-generated code...</p></details>
 

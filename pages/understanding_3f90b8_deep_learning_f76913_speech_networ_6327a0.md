@@ -860,7 +860,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
 21.<a id="endnote-21"></a>
    Source: iris.polito.it  
    Link:<a href="https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Robust, [Responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and Trustworthy Speech...This thesis introduces comprehensive frameworks and methodologies for build- ing robust, re...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Robust, [Responsible]({{ 'responsible-ai/' | relative_url }}) and Trustworthy Speech...This thesis introduces comprehensive frameworks and methodologies for build- ing robust, re...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: researchgate.net  

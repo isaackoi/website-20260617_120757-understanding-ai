@@ -801,7 +801,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
 11.<a id="endnote-11"></a>
    Source: oecd.org  
    Link:<a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in regulatory design and delivery: Governing with...18 Sept 2025 — Regulators can use AI to improve risk modelling to [better target](&amp;#123;&amp;#123; &#x27;better-target/&#x27; | relative_url &amp;#125;&amp;#125;) i...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in regulatory design and delivery: Governing with...18 Sept 2025 — Regulators can use AI to improve risk modelling to [better target]({{ 'better-target/' | relative_url }}) i...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: oecd.org  
@@ -827,7 +827,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
 
 16.<a id="endnote-16"></a>
    Source: oecd.ai  
-   Title: tool [use cases](&#123;&#123; 'use-cases/' | relative_url &#125;&#125;)  
+   Title: tool [use cases]({{ 'use-cases/' | relative_url }})  
    Link:<a href="https://oecd.ai/en/catalogue/tool-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tool-use-cases</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Use Cases from Tools or Trustworthy AIThis use case focuses on integrating a risk-driven approach, based on and aligning with ISO 31000 p...</p></details>
 
@@ -948,7 +948,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
 38.<a id="endnote-38"></a>
    Source: messervices.cyber.gouv.fr  
    Link:<a href="https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf" target="_blank" rel="noopener noreferrer nofollow">https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>trust in AI through a cyber risk-based approachIt aims to provide a high-level [synthetic](&amp;#123;&amp;#123; &#x27;synthetic-media/&#x27; | relative_url &amp;#125;&amp;#125;) and comprehensive analysis of related cyber risk...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>trust in AI through a cyber risk-based approachIt aims to provide a high-level [synthetic]({{ 'synthetic-media/' | relative_url }}) and comprehensive analysis of related cyber risk...</p></details>
 
 39.<a id="endnote-39"></a>
    Source: thoropass.com  

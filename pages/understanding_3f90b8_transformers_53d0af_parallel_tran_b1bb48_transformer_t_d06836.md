@@ -713,7 +713,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
 
 1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Title: arXiv [Attention](&#123;&#123; 'attention/' | relative_url &#125;&#125;) Is All You Need  
+   Title: arXiv [Attention]({{ 'attention/' | relative_url }}) Is All You Need  
    Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
    Published: June 12, 2017  
@@ -793,7 +793,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
 15.<a id="endnote-15"></a>
    Source: medium.com  
    Link:<a href="https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need… Until You Need MemoryTransformers replaced the old step‑by‑step approach with fully [parallel self](&amp;#123;&amp;#123; &#x27;parallel-attention/&#x27; | relative_url &amp;#125;&amp;#125;)‑attention, l...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need… Until You Need MemoryTransformers replaced the old step‑by‑step approach with fully [parallel self]({{ 'parallel-attention/' | relative_url }})‑attention, l...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: medium.com  

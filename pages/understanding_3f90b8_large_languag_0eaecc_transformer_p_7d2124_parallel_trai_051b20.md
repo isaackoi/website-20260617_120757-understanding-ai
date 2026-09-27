@@ -794,7 +794,7 @@ That alignment made it feasible to train increasingly large next-token predictor
 9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/html/2602.06057v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.06057v1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;)-time Scaling Laws for Heterogeneous ComputingWe introduce a unified heterogeneous computing framework with MLIR-based compilati...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Inference]({{ 'inference-test/' | relative_url }})-time Scaling Laws for Heterogeneous ComputingWe introduce a unified heterogeneous computing framework with MLIR-based compilati...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: linkedin.com  

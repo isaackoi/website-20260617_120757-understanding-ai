@@ -965,7 +965,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
    Source: ai-solutions.daviesmeyer.com  
    Title: datasheets for datasets  
    Link:<a href="https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets Explained - HamburgStandardized documentation for ML datasets describing [provenance](&amp;#123;&amp;#123; &#x27;provenance/&#x27; | relative_url &amp;#125;&amp;#125;), composition, collection methods, recomm...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets Explained - HamburgStandardized documentation for ML datasets describing [provenance]({{ 'provenance/' | relative_url }}), composition, collection methods, recomm...</p></details>
 
 ### Additional References
 

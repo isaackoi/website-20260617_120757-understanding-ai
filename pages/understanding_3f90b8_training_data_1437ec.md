@@ -851,7 +851,7 @@ This is why responsible AI development is not just about building bigger models.
 
 7.<a id="endnote-7"></a>
    Source: anthropic.com  
-   Title: towards [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) sycophancy in language models  
+   Title: towards [understanding]({{ 'understanding/' | relative_url }}) sycophancy in language models  
    Link:<a href="https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</a>  
 
 8.<a id="endnote-8"></a>
@@ -962,7 +962,7 @@ This is why responsible AI development is not just about building bigger models.
 
 33.<a id="endnote-33"></a>
    Source: www-cdn.anthropic.com  
-   Title: [Model Card](&#123;&#123; 'model-limits/' | relative_url &#125;&#125;) Claude 3  
+   Title: [Model Card]({{ 'model-limits/' | relative_url }}) Claude 3  
    Link:<a href="https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf</a>  
 
 34.<a id="endnote-34"></a>
@@ -1021,7 +1021,7 @@ This is why responsible AI development is not just about building bigger models.
    Source: youtube.com  
    Title: Gender Shades  
    Link:<a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TWWsW1w-BVo</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Dr. Joy Buolamwini reflects on [decoding](&amp;#123;&amp;#123; &#x27;decoding/&#x27; | relative_url &amp;#125;&amp;#125;) algorithmic bias and the future of AI...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dr. Joy Buolamwini reflects on [decoding]({{ 'decoding/' | relative_url }}) algorithmic bias and the future of AI...</p></details>
 
 46.<a id="endnote-46"></a>
    Source: youtube.com  

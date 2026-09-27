@@ -899,7 +899,7 @@ Understanding automated decision-making therefore requires looking beyond model 
 16.<a id="endnote-16"></a>
    Source: artificial-intelligence-act.com  
    Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe AI Act bans AI systems that manipulate human behavior in a way that causes physical or psych...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act]({{ 'eu-ai-act/' | relative_url }}) - Updates, Compliance, TrainingThe AI Act bans AI systems that manipulate human behavior in a way that causes physical or psych...</p></details>
 
 17.<a id="endnote-17"></a>
    Source: youtube.com  

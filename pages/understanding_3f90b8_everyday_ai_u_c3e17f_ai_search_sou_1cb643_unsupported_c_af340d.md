@@ -814,7 +814,7 @@ For users trying to understand artificial intelligence and AI-powered search, th
 8.<a id="endnote-8"></a>
    Source: reuters.com  
    Link:<a href="https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) for any false claims...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible]({{ 'responsible-ai/' | relative_url }}) for any false claims...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: wired.com  
@@ -833,7 +833,7 @@ For users trying to understand artificial intelligence and AI-powered search, th
 12.<a id="endnote-12"></a>
    Source: frontiersin.org  
    Link:<a href="https://www.frontiersin.org/ai-playbook/research-stages/reporting-figures-citations" target="_blank" rel="noopener noreferrer nofollow">https://www.frontiersin.org/ai-playbook/research-stages/reporting-figures-citations</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[High-impact AI](&amp;#123;&amp;#123; &#x27;high-impact-ai/&#x27; | relative_url &amp;#125;&amp;#125;) in reporting, figures and citationsAI can introduce plausible but unsupported statements - keep changes anchored to your d...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[High-impact AI]({{ 'high-impact-ai/' | relative_url }}) in reporting, figures and citationsAI can introduce plausible but unsupported statements - keep changes anchored to your d...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: arsa.technology  

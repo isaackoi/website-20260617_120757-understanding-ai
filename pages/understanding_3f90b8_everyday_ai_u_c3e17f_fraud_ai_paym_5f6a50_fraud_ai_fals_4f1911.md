@@ -807,7 +807,7 @@ This broader scorecard prevents institutions from claiming success based solely 
 
 1.<a id="endnote-1"></a>
    Source: lseg.com  
-   Title: [Understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) False Positives in Screening  
+   Title: [Understanding]({{ 'understanding/' | relative_url }}) False Positives in Screening  
    Link:<a href="https://www.lseg.com/en/risk-intelligence/glossary/risk-management/false-positive" target="_blank" rel="noopener noreferrer nofollow">https://www.lseg.com/en/risk-intelligence/glossary/risk-management/false-positive</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding False Positives in Screening - GlossaryIn financial risk management, a false positive refers to an erroneous system ale...</p></details>
 
@@ -874,7 +874,7 @@ This broader scorecard prevents institutions from claiming success based solely 
    Source: visaacceptance.com  
    Title: accurate risk scoring ai machine learning  
    Link:<a href="https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AI and machine learning now offer more accurate risk scoring5 Dec 2023 — our ML model generates a highly accurate [risk score](&amp;#123;&amp;#123; &#x27;thresholds/&#x27; | relative_url &amp;#125;&amp;#125;) for every tr...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI and machine learning now offer more accurate risk scoring5 Dec 2023 — our ML model generates a highly accurate [risk score]({{ 'thresholds/' | relative_url }}) for every tr...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: visaacceptance.com  

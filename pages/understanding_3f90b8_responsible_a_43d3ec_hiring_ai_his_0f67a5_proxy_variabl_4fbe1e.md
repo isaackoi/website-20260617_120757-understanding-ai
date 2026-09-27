@@ -768,7 +768,7 @@ Proxy bias demonstrates why fairness in hiring AI is more complicated than delet
 
 4.<a id="endnote-4"></a>
    Source: agenticinterviewer.com  
-   Title: bias and [legal risks](&#123;&#123; 'legal-risks/' | relative_url &#125;&#125;)  
+   Title: bias and [legal risks]({{ 'legal-risks/' | relative_url }})  
    Link:<a href="https://agenticinterviewer.com/bias-and-legal-risks/" target="_blank" rel="noopener noreferrer nofollow">https://agenticinterviewer.com/bias-and-legal-risks/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hiring Bias + Legal Risk 2026: EEOC, State Laws, Vendor Liability | agenticinterviewer.comMay 9, 2026...</p></details>
    Published: May 9, 2026  
@@ -873,7 +873,7 @@ Proxy bias demonstrates why fairness in hiring AI is more complicated than delet
    Source: youtube.com  
    Title: Crash Course  
    Link:<a href="https://www.youtube.com/watch?v=Ro8b69VeL9U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Ro8b69VeL9U</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Today, we&#x27;re going to talk about five common types of algorithmic bias we should pay [attention](&amp;#123;&amp;#123; &#x27;attention/&#x27; | relative_url &amp;#125;&amp;#125;) to: data that reflects existing biases, un...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Today, we&#x27;re going to talk about five common types of algorithmic bias we should pay [attention]({{ 'attention/' | relative_url }}) to: data that reflects existing biases, un...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: youtube.com  

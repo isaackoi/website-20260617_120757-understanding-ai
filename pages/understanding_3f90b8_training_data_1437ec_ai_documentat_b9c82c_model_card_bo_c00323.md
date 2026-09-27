@@ -885,7 +885,7 @@ For anyone evaluating AI before deployment, that may be the most important funct
    Source: alan-turing-institute.github.io  
    Title: Alan Turing Institute Model Cards  
    Link:<a href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/" target="_blank" rel="noopener noreferrer nofollow">https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) models th...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document [machine learning]({{ 'machine-learning/' | relative_url }}) models th...</p></details>
 
 17.<a id="endnote-17"></a>
    Source: panaseer.com  
@@ -909,7 +909,7 @@ For anyone evaluating AI before deployment, that may be the most important funct
 20.<a id="endnote-20"></a>
    Source: medium.com  
    Link:<a href="https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards Explained. Shoutout to Google | by TahirBy clearly stating intended [use cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#125;&amp;#125;) and out-of-scope scenarios, Model Cards help no...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards Explained. Shoutout to Google | by TahirBy clearly stating intended [use cases]({{ 'use-cases/' | relative_url }}) and out-of-scope scenarios, Model Cards help no...</p></details>
 
 21.<a id="endnote-21"></a>
    Source: researchgate.net  

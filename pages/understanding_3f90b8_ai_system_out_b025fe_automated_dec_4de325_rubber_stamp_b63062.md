@@ -975,7 +975,7 @@ The key question is therefore not whether a human appears in the workflow. It is
 35.<a id="endnote-35"></a>
    Source: censinet.com  
    Link:<a href="https://www.censinet.com/perspectives/psychology-ai-safety-human-factors" target="_blank" rel="noopener noreferrer nofollow">https://www.censinet.com/perspectives/psychology-ai-safety-human-factors</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Automation bias, confirmation bias, and [overconfidence](&amp;#123;&amp;#123; &#x27;overconfidence/&#x27; | relative_url &amp;#125;&amp;#125;) lead users to trust AI outputs even when evidence contradicts...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automation bias, confirmation bias, and [overconfidence]({{ 'overconfidence/' | relative_url }}) lead users to trust AI outputs even when evidence contradicts...Read more...</p></details>
 
 36.<a id="endnote-36"></a>
    Source: burges-salmon.com  

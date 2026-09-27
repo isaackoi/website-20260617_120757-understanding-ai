@@ -879,7 +879,7 @@ The central achievement of self-attention is simple but profound: it allows any 
 
 22.<a id="endnote-22"></a>
    Source: Wikipedia  
-   Title: Attention ([machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;))  
+   Title: Attention ([machine learning]({{ 'machine-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention (machine learning)In machine learning, attention is a method that determines the importance of each component in a sequence...</p></details>
 
@@ -967,7 +967,7 @@ The central achievement of self-attention is simple but profound: it allows any 
 38.<a id="endnote-38"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>materially affect the [prediction](&amp;#123;&amp;#123; &#x27;error-harms/&#x27; | relative_url &amp;#125;&amp;#125;), especially in deep, multi-layer...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>materially affect the [prediction]({{ 'error-harms/' | relative_url }}), especially in deep, multi-layer...Read more...</p></details>
 
 39.<a id="endnote-39"></a>
    Source: linkedin.com  

@@ -824,7 +824,7 @@ The result is one of the most important [failure modes]({{ 'failure-modes/' | re
 5.<a id="endnote-5"></a>
    Source: machinelearning.apple.com  
    Link:<a href="https://machinelearning.apple.com/research/search-augmented" target="_blank" rel="noopener noreferrer nofollow">https://machinelearning.apple.com/research/search-augmented</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Apple [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) ResearchOver-Searching in Search-Augmented Large Language Models - Apple Machine Learning Research...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Apple [Machine Learning]({{ 'machine-learning/' | relative_url }}) ResearchOver-Searching in Search-Augmented Large Language Models - Apple Machine Learning Research...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: sciencedirect.com  
@@ -858,9 +858,9 @@ The result is one of the most important [failure modes]({{ 'failure-modes/' | re
 
 11.<a id="endnote-11"></a>
    Source: youtube.com  
-   Title: Why Most [Production](&#123;&#123; 'retrieval-failures/' | relative_url &#125;&#125;) RAG Systems Fail (Even When Metrics Look Fine)  
+   Title: Why Most [Production]({{ 'retrieval-failures/' | relative_url }}) RAG Systems Fail (Even When Metrics Look Fine)  
    Link:<a href="https://www.youtube.com/watch?v=nrkDls9ETPU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nrkDls9ETPU</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers](&amp;#123;&amp;#123; &#x27;wrong-answers/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers]({{ 'wrong-answers/' | relative_url }})...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: youtube.com  

@@ -825,7 +825,7 @@ The key insight is simple but often overlooked: software development is not limi
 12.<a id="endnote-12"></a>
    Source: reddit.com  
    Link:<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>It increased the rate at which teams build MVPs and dramatically slowed down real [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;) grade development...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It increased the rate at which teams build MVPs and dramatically slowed down real [production]({{ 'retrieval-failures/' | relative_url }}) grade development...Read more...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: arxiv.org  
@@ -862,7 +862,7 @@ The key insight is simple but often overlooked: software development is not limi
 19.<a id="endnote-19"></a>
    Source: linkedin.com  
    Link:<a href="https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code: The Hidden Costs and Best PracticesThe Real Cost of AI-Generated Code A recent study by [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) Insider found develop...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code: The Hidden Costs and Best PracticesThe Real Cost of AI-Generated Code A recent study by [business]({{ 'business-adoption/' | relative_url }}) Insider found develop...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: smarterarticles.co.uk  

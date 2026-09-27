@@ -859,7 +859,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
 9.<a id="endnote-9"></a>
    Source: techradar.com  
    Link:<a href="https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models]({{ 'language-models/' | relative_url }}) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: arxiv.org  

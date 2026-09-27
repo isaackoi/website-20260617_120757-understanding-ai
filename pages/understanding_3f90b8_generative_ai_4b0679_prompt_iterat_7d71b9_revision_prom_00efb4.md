@@ -906,7 +906,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
 
 5.<a id="endnote-5"></a>
    Source: anthropic.com  
-   Title: prompt engineering for [business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) performance  
+   Title: prompt engineering for [business]({{ 'business-adoption/' | relative_url }}) performance  
    Link:<a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performance29 Feb 2024 — Prompt engineering is an important tool for any business seeking to opt...</p></details>
 

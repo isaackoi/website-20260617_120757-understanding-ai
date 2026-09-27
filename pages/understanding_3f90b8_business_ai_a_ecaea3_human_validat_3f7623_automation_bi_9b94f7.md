@@ -848,7 +848,7 @@ Automation bias matters because it can create the appearance of accountability w
 10.<a id="endnote-10"></a>
    Source: nvlpubs.nist.gov  
    Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 195 — [Understanding](&amp;#123;&amp;#123; &#x27;understanding/&#x27; | relative_url &amp;#125;&amp;#125;) and managing the risks of AI systems wil...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 195 — [Understanding]({{ 'understanding/' | relative_url }}) and managing the risks of AI systems wil...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: nist.gov  
@@ -904,7 +904,7 @@ Automation bias matters because it can create the appearance of accountability w
 
 21.<a id="endnote-21"></a>
    Source: washingtonpost.com  
-   Title: The Washington Post Why you shouldn't count on humans to prevent AI [hiring bias](&#123;&#123; 'hiring-bias/' | relative_url &#125;&#125;)  
+   Title: The Washington Post Why you shouldn't count on humans to prevent AI [hiring bias]({{ 'hiring-bias/' | relative_url }})  
    Link:<a href="https://www.washingtonpost.com/business/2025/11/25/biased-ai-hiring-research-university-of-washington-study/" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/business/2025/11/25/biased-ai-hiring-research-university-of-washington-study/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>As companies cut human resources staff and turn to large language models (LLMs) to screen job applicants, the study finds that humans wor...</p></details>
 
@@ -949,7 +949,7 @@ Automation bias matters because it can create the appearance of accountability w
    Source: edps.europa.eu  
    Title: eu Tech Dispatch  
    Link:<a href="https://www.edps.europa.eu/system/files/2025-09/25-09-15_techdispatch-human-oversight_en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/system/files/2025-09/25-09-15_techdispatch-human-oversight_en.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>can reduce automation bias by promoting more critical [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;) and meaningful human oversight of AI...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>can reduce automation bias by promoting more critical [engagement]({{ 'engagement-goals/' | relative_url }}) and meaningful human oversight of AI...Read more...</p></details>
 
 30.<a id="endnote-30"></a>
    Source: thedecisionlab.com  

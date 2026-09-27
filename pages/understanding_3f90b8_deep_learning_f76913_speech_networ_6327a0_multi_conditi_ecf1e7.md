@@ -474,7 +474,7 @@ As a result, modern speech-recognition systems are better able to operate outsid
    Source: deepgram.com  
    Title: noise robust speech recognition techniques  
    Link:<a href="https://deepgram.com/learn/noise-robust-speech-recognition-techniques" target="_blank" rel="noopener noreferrer nofollow">https://deepgram.com/learn/noise-robust-speech-recognition-techniques</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Noise-Robust Speech Recognition Techniques10 Mar 2026 — Learn which noise-robust speech recognition techniques survive [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Noise-Robust Speech Recognition Techniques10 Mar 2026 — Learn which noise-robust speech recognition techniques survive [production]({{ 'retrieval-failures/' | relative_url }})...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: researchgate.net  
@@ -542,7 +542,7 @@ As a result, modern speech-recognition systems are better able to operate outsid
 17.<a id="endnote-17"></a>
    Source: patents.google.com  
    Link:<a href="https://patents.google.com/patent/US20240013775A1/en" target="_blank" rel="noopener noreferrer nofollow">https://patents.google.com/patent/US20240013775A1/en</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Google PatentsPatched multi-condition training for robust speech recognitionThe present [disclosure](&amp;#123;&amp;#123; &#x27;disclosure/&#x27; | relative_url &amp;#125;&amp;#125;) presents pMCT, a data augmentation app...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google PatentsPatched multi-condition training for robust speech recognitionThe present [disclosure]({{ 'disclosure/' | relative_url }}) presents pMCT, a data augmentation app...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: youtube.com  
@@ -563,7 +563,7 @@ As a result, modern speech-recognition systems are better able to operate outsid
    Source: youtube.com  
    Title: Audio Data Augmentation Is All You Need  
    Link:<a href="https://www.youtube.com/watch?v=HH_h52I_Qeg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=HH_h52I_Qeg</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Automatic Speech Recognition (ASR): Acoustic vs [Language Models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) and Why Transcription Errors Happen...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automatic Speech Recognition (ASR): Acoustic vs [Language Models]({{ 'language-models/' | relative_url }}) and Why Transcription Errors Happen...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: mediatum.ub.tum.de  

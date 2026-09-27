@@ -894,7 +894,7 @@ For organisations moving from pilots to production, this shifts the focus of AI 
 16.<a id="endnote-16"></a>
    Source: searchplex.net  
    Link:<a href="https://www.searchplex.net/why-rag-fails-in-production" target="_blank" rel="noopener noreferrer nofollow">https://www.searchplex.net/why-rag-fails-in-production</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Searchplex | Why RAG Fails in Production — Agentic AI and [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) Retrieval Architecture | Searchplex...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Searchplex | Why RAG Fails in Production — Agentic AI and [Generative AI]({{ 'generative-ai/' | relative_url }}) Retrieval Architecture | Searchplex...</p></details>
 
 17.<a id="endnote-17"></a>
    Source: sciencedirect.com  
@@ -935,7 +935,7 @@ For organisations moving from pilots to production, this shifts the focus of AI 
    Source: youtube.com  
    Title: Why RAG Fails in Production: The Hidden Problems  
    Link:<a href="https://www.youtube.com/watch?v=qncAHDJ6Ft4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=qncAHDJ6Ft4</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The Billion-Vector Problem: HNSW vs. DiskANN in Azure [AI Search](&amp;#123;&amp;#123; &#x27;ai-search/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Billion-Vector Problem: HNSW vs. DiskANN in Azure [AI Search]({{ 'ai-search/' | relative_url }})...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: youtube.com  

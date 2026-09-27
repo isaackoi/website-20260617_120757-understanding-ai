@@ -822,7 +822,7 @@ In many document-heavy environments—legal archives, government records, busine
 
 5.<a id="endnote-5"></a>
    Source: reddit.com  
-   Title: Is OCR accuracy actually a blocker for anyone's RAG/[automation](&#123;&#123; 'automation-bias/' | relative_url &#125;&#125;) pipelines?  
+   Title: Is OCR accuracy actually a blocker for anyone's RAG/[automation]({{ 'automation-bias/' | relative_url }}) pipelines?  
    Link:<a href="https://www.reddit.com/r/LLMDevs/comments/1oppxej/is_ocr_accuracy_actually_a_blocker_for_anyones/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LLMDevs/comments/1oppxej/is_ocr_accuracy_actually_a_blocker_for_anyones/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Is OCR accuracy actually a blocker for anyone&#x27;s RAG/automation pipelines?November 6, 2025...</p></details>
    Published: November 6, 2025  
@@ -867,7 +867,7 @@ In many document-heavy environments—legal archives, government records, busine
 
 12.<a id="endnote-12"></a>
    Source: youtube.com  
-   Title: How Speculative [Decoding](&#123;&#123; 'decoding/' | relative_url &#125;&#125;) Cuts OCR [Hallucinations](&#123;&#123; 'hallucinations/' | relative_url &#125;&#125;) by 90%  
+   Title: How Speculative [Decoding]({{ 'decoding/' | relative_url }}) Cuts OCR [Hallucinations]({{ 'hallucinations/' | relative_url }}) by 90%  
    Link:<a href="https://www.youtube.com/watch?v=lCP9g8cAPho" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=lCP9g8cAPho</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Webinar: What Matters in Document Parsing—and How to Measure It...</p></details>
 

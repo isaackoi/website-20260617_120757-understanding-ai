@@ -866,7 +866,7 @@ Understanding hallucinations is therefore not simply about recognising a technic
 
 16.<a id="endnote-16"></a>
    Source: nist.gov  
-   Title: hallucination detection large language models using diversion [decoding](&#123;&#123; 'decoding/' | relative_url &#125;&#125;)  
+   Title: hallucination detection large language models using diversion [decoding]({{ 'decoding/' | relative_url }})  
    Link:<a href="https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Hallucination Detection in Large Language Models Using...by B Abdeen · 2025 · Cited by 1 — In this paper, we introduce diversion decodin...</p></details>
 

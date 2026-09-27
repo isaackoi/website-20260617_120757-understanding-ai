@@ -746,7 +746,7 @@ Risk-based AI rules treat human oversight as a safeguard because AI-supported de
 
 3.<a id="endnote-3"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Title: PMCThe impact of [AI errors](&#123;&#123; 'ai-errors/' | relative_url &#125;&#125;) in a human-in-the-loop process  
+   Title: PMCThe impact of [AI errors]({{ 'ai-errors/' | relative_url }}) in a human-in-the-loop process  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10772030/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10772030/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>by U Agudo · 2024 · Cited by 104 — Our results show that human judgment is affected when participants receive incorrect algorithmic su...</p></details>
 
@@ -783,7 +783,7 @@ Risk-based AI rules treat human oversight as a safeguard because AI-supported de
 10.<a id="endnote-10"></a>
    Source: papers.ssrn.com  
    Link:<a href="https://papers.ssrn.com/sol3/Delivery.cfm/5779442.pdf?abstractid=5779442&amp;mirid=1" target="_blank" rel="noopener noreferrer nofollow">https://papers.ssrn.com/sol3/Delivery.cfm/5779442.pdf?abstractid=5779442&amp;mirid=1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Management Framework (AI RMF 1.0) and the NIST [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) Profile (...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Management Framework (AI RMF 1.0) and the NIST [Generative AI]({{ 'generative-ai/' | relative_url }}) Profile (...Read more...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: artificial-intelligence-act.com  

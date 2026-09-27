@@ -876,7 +876,7 @@ The key insight is that a language model does not produce a single inevitable an
 18.<a id="endnote-18"></a>
    Source: huggingface.co  
    Link:<a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The platform where the [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) community collaborates on models, datasets, and applications. Explore AI Apps.Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The platform where the [machine learning]({{ 'machine-learning/' | relative_url }}) community collaborates on models, datasets, and applications. Explore AI Apps.Read more...</p></details>
 
 19.<a id="endnote-19"></a>
    Source: discuss.huggingface.co  
@@ -936,7 +936,7 @@ The key insight is that a language model does not produce a single inevitable an
 29.<a id="endnote-29"></a>
    Source: machinelearning-basics.com  
    Link:<a href="https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Hanane D.ChatGPT API Temperature and Top_pOpenAI [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) recommends modifying either temperature or top_p, but not both. Top_p samp...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hanane D.ChatGPT API Temperature and Top_pOpenAI [documentation]({{ 'paper-safety/' | relative_url }}) recommends modifying either temperature or top_p, but not both. Top_p samp...</p></details>
 
 30.<a id="endnote-30"></a>
    Source: kunalganglani.com  

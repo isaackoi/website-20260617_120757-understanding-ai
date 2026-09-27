@@ -861,7 +861,7 @@ Responsible AI safeguards work best when they are boringly explicit: who signs o
 
 5.<a id="endnote-5"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Title: PMCThe impact of [AI errors](&#123;&#123; 'ai-errors/' | relative_url &#125;&#125;) in a human-in-the-loop process  
+   Title: PMCThe impact of [AI errors]({{ 'ai-errors/' | relative_url }}) in a human-in-the-loop process  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10772030/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10772030/</a>  
 
 6.<a id="endnote-6"></a>

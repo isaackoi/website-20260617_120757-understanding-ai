@@ -819,7 +819,7 @@ Within the broader story of how web filtering changes what [language models]({{ 
 
 17.<a id="endnote-17"></a>
    Source: proceedings.neurips.cc  
-   Title: 1c6bed78d3813886d3d72595dbecb80b Paper Datasets and [Benchmarks](&#123;&#123; 'benchmarks/' | relative_url &#125;&#125;)  
+   Title: 1c6bed78d3813886d3d72595dbecb80b Paper Datasets and [Benchmarks]({{ 'benchmarks/' | relative_url }})  
    Link:<a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>C4: An Open, Billion-scale Corpus of Images...by W Zhu · 2023 · Cited by 269 — Documenting large webtext corpora: A case study on the co...</p></details>
 
@@ -833,4 +833,4 @@ Within the broader story of how web filtering changes what [language models]({{ 
    Source: direct.mit.edu  
    Title: Quality at a Glance An Audit of Web Crawled  
    Link:<a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00447/109285/Quality-at-a-Glance-An-Audit-of-Web-Crawled" target="_blank" rel="noopener noreferrer nofollow">https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00447/109285/Quality-at-a-Glance-An-Audit-of-Web-Crawled</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Press DirectQuality at a Glance: An Audit of Web-Crawled [Multilingual](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;)...by J Kreutzer · 2022 · Cited by 313 — We manually audit the...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Press DirectQuality at a Glance: An Audit of Web-Crawled [Multilingual]({{ 'language-bias/' | relative_url }})...by J Kreutzer · 2022 · Cited by 313 — We manually audit the...</p></details>

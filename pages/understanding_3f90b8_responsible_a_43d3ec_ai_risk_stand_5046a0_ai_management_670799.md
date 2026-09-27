@@ -857,7 +857,7 @@ That shift reflects a broader understanding found across modern AI governance fr
 
 13.<a id="endnote-13"></a>
    Source: al-ice.ai  
-   Title: NIS T — Monitoring deployed AI systems in [production](&#123;&#123; 'retrieval-failures/' | relative_url &#125;&#125;) — al-ice.ai  
+   Title: NIS T — Monitoring deployed AI systems in [production]({{ 'retrieval-failures/' | relative_url }}) — al-ice.ai  
    Link:<a href="https://al-ice.ai/posts/2026/03/nist-monitoring-deployed-ai-systems/" target="_blank" rel="noopener noreferrer nofollow">https://al-ice.ai/posts/2026/03/nist-monitoring-deployed-ai-systems/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST — Monitoring deployed AI systems in production — al-ice.aiMarch 28, 2026...</p></details>
    Published: March 28, 2026  

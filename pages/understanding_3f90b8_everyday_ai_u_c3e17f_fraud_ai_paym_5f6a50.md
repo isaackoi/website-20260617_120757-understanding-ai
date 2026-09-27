@@ -855,7 +855,7 @@ The practical solution is neither complete automation nor complete reliance on h
 15.<a id="endnote-15"></a>
    Source: youtube.com  
    Link:<a href="http://www.youtube.com/watch?v=96k0sncyoXA" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=96k0sncyoXA</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard accelerates card fraud detection with [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) technology...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard accelerates card fraud detection with [generative AI]({{ 'generative-ai/' | relative_url }}) technology...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: youtube.com  

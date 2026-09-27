@@ -749,7 +749,7 @@ In that sense, ImageNet did more than measure AlexNet’s performance. It provid
 
 2.<a id="endnote-2"></a>
    Source: Wikipedia  
-   Title: [Alex Net](&#123;&#123; 'alex-net/' | relative_url &#125;&#125;)  
+   Title: [Alex Net]({{ 'alex-net/' | relative_url }})  
    Link:<a href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/AlexNet</a>  
 
 3.<a id="endnote-3"></a>
@@ -786,7 +786,7 @@ In that sense, ImageNet did more than measure AlexNet’s performance. It provid
 
 9.<a id="endnote-9"></a>
    Source: medium.com  
-   Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) alexnet the 2012 breakthrough that redefined ai d0e267e2470a  
+   Title: [understanding]({{ 'understanding/' | relative_url }}) alexnet the 2012 breakthrough that redefined ai d0e267e2470a  
    Link:<a href="https://medium.com/%40igquinteroch/understanding-alexnet-the-2012-breakthrough-that-redefined-ai-d0e267e2470a" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40igquinteroch/understanding-alexnet-the-2012-breakthrough-that-redefined-ai-d0e267e2470a</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding AlexNet: The 2012 Breakthrough That...AlexNet achieved a remarkable 15.3% top-5 error rate compared to the second-place 26...</p></details>
 
@@ -803,7 +803,7 @@ In that sense, ImageNet did more than measure AlexNet’s performance. It provid
 12.<a id="endnote-12"></a>
    Source: imagenetglobal.com  
    Link:<a href="https://www.imagenetglobal.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.imagenetglobal.com/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Imagenet | Healthpayer SolutionsImagenet is a premier technology company that has advanced the [automation](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;) of [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Imagenet | Healthpayer SolutionsImagenet is a premier technology company that has advanced the [automation]({{ 'automation-bias/' | relative_url }}) of [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125...</p></details>
 
 ### Additional References
 

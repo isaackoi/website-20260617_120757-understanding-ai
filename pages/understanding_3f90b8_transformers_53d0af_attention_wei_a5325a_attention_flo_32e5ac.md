@@ -784,7 +784,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
    Source: github.com  
    Title: attention rollout for vision transformer.ipynb  
    Link:<a href="https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>20, 2024 — Attention rollout has been shown to produce more interpretable and [meaningful](&amp;#123;&amp;#123; &#x27;human-review/&#x27; | relative_url &amp;#125;&amp;#125;) visualizations of attention, especially for deep...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>20, 2024 — Attention rollout has been shown to produce more interpretable and [meaningful]({{ 'human-review/' | relative_url }}) visualizations of attention, especially for deep...</p></details>
 
 11.<a id="endnote-11"></a>
    Source: medium.com  

@@ -781,7 +781,7 @@ Class imbalance shows that training data influences not only what a model learns
 
 5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Title: arXiv Heteroskedastic and Imbalanced [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;) with Adaptive Regularization  
+   Title: arXiv Heteroskedastic and Imbalanced [Deep Learning]({{ 'deep-learning/' | relative_url }}) with Adaptive Regularization  
    Link:<a href="https://arxiv.org/abs/2006.15766" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2006.15766</a>  
 
 6.<a id="endnote-6"></a>
@@ -829,7 +829,7 @@ Class imbalance shows that training data influences not only what a model learns
 
 14.<a id="endnote-14"></a>
    Source: nist.gov  
-   Title: theres more ai bias [biased data](&#123;&#123; 'biased-data/' | relative_url &#125;&#125;) nist report highlights  
+   Title: theres more ai bias [biased data]({{ 'biased-data/' | relative_url }}) nist report highlights  
    Link:<a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...16 Mar 2022 — The NIST report acknowledges that a great deal of AI bias stems fr...</p></details>
 

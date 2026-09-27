@@ -854,7 +854,7 @@ Understanding this distinction helps explain why AI drafts feel different from A
 14.<a id="endnote-14"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2508.03860" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.03860</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Hallucination to Truth: A Review of Fact-[Checking](&amp;#123;&amp;#123; &#x27;checklists/&#x27; | relative_url &amp;#125;&amp;#125;) and...by SS Rahman · 2025 · Cited by 36 — This review systematically analyzes how LLM...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hallucination to Truth: A Review of Fact-[Checking]({{ 'checklists/' | relative_url }}) and...by SS Rahman · 2025 · Cited by 36 — This review systematically analyzes how LLM...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: arxiv.org  
@@ -890,7 +890,7 @@ Understanding this distinction helps explain why AI drafts feel different from A
 21.<a id="endnote-21"></a>
    Source: theguardian.com  
    Link:<a href="https://www.theguardian.com/technology/2025/feb/11/ai-chatbots-distort-and-mislead-when-asked-about-current-affairs-bbc-finds" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/feb/11/ai-chatbots-distort-and-mislead-when-asked-about-current-affairs-bbc-finds</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Over half of the AI-generated responses were judged to have significant issues, including erroneous statements about [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) figures, m...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Over half of the AI-generated responses were judged to have significant issues, including erroneous statements about [political]({{ 'political-video/' | relative_url }}) figures, m...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: reddit.com  
@@ -931,7 +931,7 @@ Understanding this distinction helps explain why AI drafts feel different from A
 
 29.<a id="endnote-29"></a>
    Source: levelup.gitconnected.com  
-   Title: openai thinks [overconfidence](&#123;&#123; 'overconfidence/' | relative_url &#125;&#125;) is llms hallucination cause d8130e72aad9  
+   Title: openai thinks [overconfidence]({{ 'overconfidence/' | relative_url }}) is llms hallucination cause d8130e72aad9  
    Link:<a href="https://levelup.gitconnected.com/openai-thinks-overconfidence-is-llms-hallucination-cause-d8130e72aad9" target="_blank" rel="noopener noreferrer nofollow">https://levelup.gitconnected.com/openai-thinks-overconfidence-is-llms-hallucination-cause-d8130e72aad9</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Thinks Overconfidence is LLM&#x27;s Hallucination CauseSep 16, 2025 — Pretraining creates the conditions for errors; our benchmarks then rewar...</p></details>
 

@@ -462,7 +462,7 @@ As conditions move further away from those experiences, performance can drop une
 2.<a id="endnote-2"></a>
    Source: nature.com  
    Link:<a href="https://www.nature.com/nature-index/topics/l3/speech-recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/nature-index/topics/l3/speech-recognition</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Nature Index Speech RecognitionRobustness to background noise, far-field microphones and [accents](&amp;#123;&amp;#123; &#x27;accents/&#x27; | relative_url &amp;#125;&amp;#125;) remains a central challenge, driving res...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Nature Index Speech RecognitionRobustness to background noise, far-field microphones and [accents]({{ 'accents/' | relative_url }}) remains a central challenge, driving res...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: papers.cool  
@@ -488,7 +488,7 @@ As conditions move further away from those experiences, performance can drop une
 7.<a id="endnote-7"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6519714/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6519714/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Two-stage [Deep Learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) for Noisy-reverberant Speech...by Y Zhao · 2018 · Cited by 133 — We propose a two-stage strategy to enhance c...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Two-stage [Deep Learning]({{ 'deep-learning/' | relative_url }}) for Noisy-reverberant Speech...by Y Zhao · 2018 · Cited by 133 — We propose a two-stage strategy to enhance c...</p></details>
 
 8.<a id="endnote-8"></a>
    Source: chimechallenge.github.io  
@@ -547,7 +547,7 @@ As conditions move further away from those experiences, performance can drop une
 18.<a id="endnote-18"></a>
    Source: link.springer.com  
    Link:<a href="https://link.springer.com/article/10.1186/s13636-026-00451-8" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1186/s13636-026-00451-8</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;) perturbation plus SpecAugment be outperformed...by D Mengke · 2026 — This paper introduces a time-domain augmentation method, Fade...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[speed]({{ 'speed/' | relative_url }}) perturbation plus SpecAugment be outperformed...by D Mengke · 2026 — This paper introduces a time-domain augmentation method, Fade...</p></details>
 
 19.<a id="endnote-19"></a>
    Source: arxiv.org  

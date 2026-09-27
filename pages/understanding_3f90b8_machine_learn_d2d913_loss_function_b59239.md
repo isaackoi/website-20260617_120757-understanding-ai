@@ -808,7 +808,7 @@ In that sense, a loss function acts as the bridge between mistakes and improveme
 
 9.<a id="endnote-9"></a>
    Source: developers.google.com  
-   Title: · Applying regularization is critical to prevent [overfitting](&#123;&#123; 'overfitting/' | relative_url &#125;&#125;). Read more  
+   Title: · Applying regularization is critical to prevent [overfitting]({{ 'overfitting/' | relative_url }}). Read more  
    Link:<a href="https://developers.google.com/machine-learning/crash-course/logistic-regression/loss-regularization" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/logistic-regression/loss-regularization</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersLogistic regression: Loss and regularizationLogistic regression models use Log Loss as the loss function instead of...</p></details>
 
@@ -864,7 +864,7 @@ In that sense, a loss function acts as the bridge between mistakes and improveme
 19.<a id="endnote-19"></a>
    Source: developers.google.com  
    Link:<a href="https://developers.google.com/machine-learning/crash-course/classification/thresholding" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/classification/thresholding</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>and the confusion matrix | Machine Learning12 Jan 2026 — Different [thresholds](&amp;#123;&amp;#123; &#x27;thresholds/&#x27; | relative_url &amp;#125;&amp;#125;) usually result in different numbers of true and false posit...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and the confusion matrix | Machine Learning12 Jan 2026 — Different [thresholds]({{ 'thresholds/' | relative_url }}) usually result in different numbers of true and false posit...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: codelabs.developers.google.com  

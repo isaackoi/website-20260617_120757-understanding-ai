@@ -883,7 +883,7 @@ Meaningful human review helps ensure that decision-makers examine context rather
 21.<a id="endnote-21"></a>
    Source: thetimes.com  
    Link:<a href="https://www.thetimes.com/uk/law/article/using-ai-for-official-decisions-raises-questions-over-compliance-pfjwzrnrt" target="_blank" rel="noopener noreferrer nofollow">https://www.thetimes.com/uk/law/article/using-ai-for-official-decisions-raises-questions-over-compliance-pfjwzrnrt</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>While AI offers advantages like [speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;), consistency, and data analysis, its integration raises significant legal concerns—particularly aro...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>While AI offers advantages like [speed]({{ 'speed/' | relative_url }}), consistency, and data analysis, its integration raises significant legal concerns—particularly aro...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: commission.europa.eu  

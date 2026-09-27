@@ -766,7 +766,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
 
 2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Title: arXiv Fairness-guided Few-shot Prompting for Large [Language Models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;)  
+   Title: arXiv Fairness-guided Few-shot Prompting for Large [Language Models]({{ 'language-models/' | relative_url }})  
    Link:<a href="https://arxiv.org/abs/2303.13217" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.13217</a>  
 
 3.<a id="endnote-3"></a>

@@ -915,7 +915,7 @@ This is one reason image generation has become a prominent example of AI-assiste
    Source: developers.openai.com  
    Title: image gen models prompting guide  
    Link:<a href="https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Models Prompting GuideApr 21, 2026 — Introduction. OpenAI&#x27;s gpt-image generation models are designed for [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;)-qual...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Models Prompting GuideApr 21, 2026 — Introduction. OpenAI&#x27;s gpt-image generation models are designed for [production]({{ 'retrieval-failures/' | relative_url }})-qual...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: github.com  
@@ -979,7 +979,7 @@ This is one reason image generation has become a prominent example of AI-assiste
 23.<a id="endnote-23"></a>
    Source: adobe.com  
    Link:<a href="https://www.adobe.com/tw/" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/tw/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe：創意、行銷和文件管理解決方案使用Adobe 軟體，創作精美的作品、提高工作效率，並提供引人入勝的客戶體驗。 檢視所有產品. ADOBE FOR [BUSINESS](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;). 從Adobe 開始。Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe：創意、行銷和文件管理解決方案使用Adobe 軟體，創作精美的作品、提高工作效率，並提供引人入勝的客戶體驗。 檢視所有產品. ADOBE FOR [BUSINESS]({{ 'business-adoption/' | relative_url }}). 從Adobe 開始。Read more...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: community.adobe.com  
@@ -1038,7 +1038,7 @@ This is one reason image generation has become a prominent example of AI-assiste
 
 34.<a id="endnote-34"></a>
    Source: datavizfairy.co.uk  
-   Title: adobe firefly 5 tips for better [generative ai](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) image outcomes  
+   Title: adobe firefly 5 tips for better [generative ai]({{ 'generative-ai/' | relative_url }}) image outcomes  
    Link:<a href="https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/" target="_blank" rel="noopener noreferrer nofollow">https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly: 5 Tips for better Generative AI Image...28 Aug 2024 — It&#x27;s a generative AI tool that helps you quickly create custom, hig...</p></details>
 

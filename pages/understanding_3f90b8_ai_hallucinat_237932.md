@@ -894,7 +894,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
 
 10.<a id="endnote-10"></a>
    Source: nist.gov  
-   Title: hallucination detection large language models using diversion [decoding](&#123;&#123; 'decoding/' | relative_url &#125;&#125;)  
+   Title: hallucination detection large language models using diversion [decoding]({{ 'decoding/' | relative_url }})  
    Link:<a href="https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding</a>  
 
 11.<a id="endnote-11"></a>

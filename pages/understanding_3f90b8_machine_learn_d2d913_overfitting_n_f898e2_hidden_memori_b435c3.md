@@ -756,7 +756,7 @@ The practical lesson is simple: high training accuracy measures success on famil
 
 3.<a id="endnote-3"></a>
    Source: cacm.acm.org  
-   Title: shortcut learning of large [language models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;) in natural language understanding  
+   Title: shortcut learning of large [language models]({{ 'language-models/' | relative_url }}) in natural language understanding  
    Link:<a href="https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/" target="_blank" rel="noopener noreferrer nofollow">https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>The method synthesizes a pair...Read more...</p></details>
 

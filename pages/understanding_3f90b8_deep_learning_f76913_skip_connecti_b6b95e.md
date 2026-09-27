@@ -773,7 +773,7 @@ Perhaps the most important legacy of skip connections is conceptual. They showed
    Source: geeksforgeeks.org  
    Title: Geeksfor Geeks Residual Networks (Res Net)  
    Link:<a href="https://www.geeksforgeeks.org/deep-learning/residual-networks-resnet-deep-learning/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/deep-learning/residual-networks-resnet-deep-learning/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Residual Networks (ResNet) - Deep LearningMay 12, 2026 — Eases training of deep networks by allowing direct [gradient flow](&amp;#123;&amp;#123; &#x27;gradient-flow/&#x27; | relative_url &amp;#125;&amp;#125;) through skip co...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Residual Networks (ResNet) - Deep LearningMay 12, 2026 — Eases training of deep networks by allowing direct [gradient flow]({{ 'gradient-flow/' | relative_url }}) through skip co...</p></details>
    Published: May 12, 2026  
 
 6.<a id="endnote-6"></a>

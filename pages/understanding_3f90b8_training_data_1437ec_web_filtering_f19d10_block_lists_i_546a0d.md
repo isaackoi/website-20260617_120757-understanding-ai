@@ -815,7 +815,7 @@ For understanding artificial intelligence, the important point is that a block l
 8.<a id="endnote-8"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/406039756_Epistemic_Injustice_in_Language_Models_An_Audit_of_Pretraining_Filters_and_Guardrails" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/406039756_Epistemic_Injustice_in_Language_Models_An_Audit_of_Pretraining_Filters_and_Guardrails</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>An Audit of Pretraining Filters and Guardrails7 Jun 2026 — Our analysis shows that filtering and guardrail [decisions](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) are strongly associa...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Audit of Pretraining Filters and Guardrails7 Jun 2026 — Our analysis shows that filtering and guardrail [decisions]({{ 'decisions/' | relative_url }}) are strongly associa...</p></details>
 
 9.<a id="endnote-9"></a>
    Source: arxiv.org  
@@ -902,7 +902,7 @@ For understanding artificial intelligence, the important point is that a block l
    Source: juser.fz-juelich.de  
    Title: Bachelorarbeit Rahmdel 424069  
    Link:<a href="https://juser.fz-juelich.de/record/1041549/files/Bachelorarbeit_Rahmdel_424069.pdf" target="_blank" rel="noopener noreferrer nofollow">https://juser.fz-juelich.de/record/1041549/files/Bachelorarbeit_Rahmdel_424069.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Linguistic Proximity in C4 [Multilingual](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) Data through...by S Rahmdel · 2025 · Cited by 1 — This thesis investigates the proximity of diff...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Linguistic Proximity in C4 [Multilingual]({{ 'language-bias/' | relative_url }}) Data through...by S Rahmdel · 2025 · Cited by 1 — This thesis investigates the proximity of diff...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: thegradient.pub  

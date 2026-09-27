@@ -931,7 +931,7 @@ When these triggers are present, human review becomes more than a compliance req
 22.<a id="endnote-22"></a>
    Source: committees.parliament.uk  
    Link:<a href="https://committees.parliament.uk/writtenevidence/114059/html/" target="_blank" rel="noopener noreferrer nofollow">https://committees.parliament.uk/writtenevidence/114059/html/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>UK Parliament CommitteesThe ICO&#x27;s approach to regulating AI and [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;)...Where individuals are subject to solely automated decisions...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK Parliament CommitteesThe ICO&#x27;s approach to regulating AI and [engagement]({{ 'engagement-goals/' | relative_url }})...Where individuals are subject to solely automated decisions...</p></details>
 
 23.<a id="endnote-23"></a>
    Source: insideprivacy.com  

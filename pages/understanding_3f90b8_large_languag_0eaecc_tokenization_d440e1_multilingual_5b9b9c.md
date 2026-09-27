@@ -770,7 +770,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
    Source: openreview.net  
    Title: Open Review Do All Languages Cost the Same?  
    Link:<a href="https://openreview.net/forum?id=OUmxBN45Gl" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=OUmxBN45Gl</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) in the Era...by O Ahia · Cited by 191 — We conduct a systematic analysis of the cost and utility of OpenAI&#x27;s language model...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Tokenization]({{ 'tokenization/' | relative_url }}) in the Era...by O Ahia · Cited by 191 — We conduct a systematic analysis of the cost and utility of OpenAI&#x27;s language model...</p></details>
 
 5.<a id="endnote-5"></a>
    Source: arxiv.org  

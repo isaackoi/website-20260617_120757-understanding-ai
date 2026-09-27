@@ -886,7 +886,7 @@ Understanding this distinction is one of the most important lessons for AI users
 21.<a id="endnote-21"></a>
    Source: sabrresearch.com  
    Link:<a href="https://sabrresearch.com/blogs/hallucination" target="_blank" rel="noopener noreferrer nofollow">https://sabrresearch.com/blogs/hallucination</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[Decoding](&amp;#123;&amp;#123; &#x27;decoding/&#x27; | relative_url &amp;#125;&amp;#125;) LLM HallucinationsThis mathematical reality highlights that hallucinations are not glitches in the traditional sense, but rather...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Decoding]({{ 'decoding/' | relative_url }}) LLM HallucinationsThis mathematical reality highlights that hallucinations are not glitches in the traditional sense, but rather...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: reddit.com  

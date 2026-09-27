@@ -991,4 +991,4 @@ Biased data matters because machine-learning systems learn from the world as it 
 41.<a id="endnote-41"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ce, which outlines key principles for ensuring [responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) development.Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ce, which outlines key principles for ensuring [responsible AI]({{ 'responsible-ai/' | relative_url }}) development.Read more...</p></details>

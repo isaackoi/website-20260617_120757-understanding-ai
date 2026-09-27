@@ -854,7 +854,7 @@ That distinction lies at the heart of reward hacking. When the score rewards app
 12.<a id="endnote-12"></a>
    Source: openreview.net  
    Link:<a href="https://openreview.net/forum?id=HZVIQE1MsJ" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=HZVIQE1MsJ</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>n values that uses a [generative](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) LLM to produce contrastive judgments with natural language...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>n values that uses a [generative]({{ 'generative-ai/' | relative_url }}) LLM to produce contrastive judgments with natural language...Read more...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: aclanthology.org  
@@ -894,7 +894,7 @@ That distinction lies at the heart of reward hacking. When the score rewards app
 19.<a id="endnote-19"></a>
    Source: llm-d.ai  
    Link:<a href="https://llm-d.ai/" target="_blank" rel="noopener noreferrer nofollow">https://llm-d.ai/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Kubernetes-Native Distributed LLM [Inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;) with...Deploy [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;) LLM inference on Kubernetes with vLLM: i...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Kubernetes-Native Distributed LLM [Inference]({{ 'inference-test/' | relative_url }}) with...Deploy [production]({{ 'retrieval-failures/' | relative_url }}) LLM inference on Kubernetes with vLLM: i...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: scribd.com  

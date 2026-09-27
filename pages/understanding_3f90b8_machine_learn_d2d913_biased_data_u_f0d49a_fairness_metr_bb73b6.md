@@ -878,7 +878,7 @@ As fairness research has matured, the field has moved away from the idea that a 
 22.<a id="endnote-22"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/pdf/2501.01889" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2501.01889</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>An Investigation into Custom [Loss Functions](&amp;#123;&amp;#123; &#x27;loss-functions/&#x27; | relative_url &amp;#125;&amp;#125;) for Fairness...by G Lee · 2025 · Cited by 1 — This paper explores the complex tradeoffs betw...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Investigation into Custom [Loss Functions]({{ 'loss-functions/' | relative_url }}) for Fairness...by G Lee · 2025 · Cited by 1 — This paper explores the complex tradeoffs betw...</p></details>
 
 23.<a id="endnote-23"></a>
    Source: nvlpubs.nist.gov  

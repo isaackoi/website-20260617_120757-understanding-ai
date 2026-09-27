@@ -770,7 +770,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
    Source: consorsegurosdigital.com  
    Title: Floods, a danger to road safety  
    Link:<a href="https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ConsorsegurosDue to their [speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;) and unpredictability, flash floods are extremely hazardous to personal safety, specifically to road safety...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ConsorsegurosDue to their [speed]({{ 'speed/' | relative_url }}) and unpredictability, flash floods are extremely hazardous to personal safety, specifically to road safety...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: press.ierek.com  
@@ -779,7 +779,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
 
 4.<a id="endnote-4"></a>
    Source: transportation.gov  
-   Title: ITS [use cases](&#123;&#123; 'use-cases/' | relative_url &#125;&#125;)  
+   Title: ITS [use cases]({{ 'use-cases/' | relative_url }})  
    Link:<a href="https://www.transportation.gov/grants/ss4a/ITS-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://www.transportation.gov/grants/ss4a/ITS-use-cases</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>improve emergency vehicle access...</p></details>
 
@@ -815,7 +815,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
 
 10.<a id="endnote-10"></a>
    Source: highways.dot.gov  
-   Title: infrastructure developing [risk based](&#123;&#123; 'risk-rules/' | relative_url &#125;&#125;) scour program  
+   Title: infrastructure developing [risk based]({{ 'risk-rules/' | relative_url }}) scour program  
    Link:<a href="https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program" target="_blank" rel="noopener noreferrer nofollow">https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>dot.govInfrastructure: Developing a Risk-Based Scour Program | FHWAThis online training provides guidance on developing a Plan of Action...</p></details>
 

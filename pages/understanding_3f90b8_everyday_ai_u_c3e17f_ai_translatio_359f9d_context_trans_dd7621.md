@@ -811,7 +811,7 @@ The result is an important lesson about artificial intelligence: language unders
 5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2410.14057" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2410.14057</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Towards Cross-Cultural Machine Translation with Retrieval-Augmented Generation from [Multilingual](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) Knowledge GraphsOctober 17, 2024...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Towards Cross-Cultural Machine Translation with Retrieval-Augmented Generation from [Multilingual]({{ 'language-bias/' | relative_url }}) Knowledge GraphsOctober 17, 2024...</p></details>
    Published: October 17, 2024  
 
 6.<a id="endnote-6"></a>
@@ -907,7 +907,7 @@ The result is an important lesson about artificial intelligence: language unders
 22.<a id="endnote-22"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2305.13751" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.13751</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Challenges [in Context](&amp;#123;&amp;#123; &#x27;in-context-learning/&#x27; | relative_url &amp;#125;&amp;#125;)-Aware Neural Machine Translationby L Jin · 2023 · Cited by 32 — In this work, we investigate several challenges tha...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Challenges [in Context]({{ 'in-context-learning/' | relative_url }})-Aware Neural Machine Translationby L Jin · 2023 · Cited by 32 — In this work, we investigate several challenges tha...</p></details>
 
 23.<a id="endnote-23"></a>
    Source: pubmed.ncbi.nlm.nih.gov  

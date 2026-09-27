@@ -858,7 +858,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
 17.<a id="endnote-17"></a>
    Source: osf.io  
    Link:<a href="https://osf.io/wcu5m/overview" target="_blank" rel="noopener noreferrer nofollow">https://osf.io/wcu5m/overview</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Users perceptions of chatbot bullshittingThis emphasis on linguistic [fluency](&amp;#123;&amp;#123; &#x27;fluency-vs-accuracy/&#x27; | relative_url &amp;#125;&amp;#125;) as an indicator for intelligence reflects a long-standing hu...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Users perceptions of chatbot bullshittingThis emphasis on linguistic [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) as an indicator for intelligence reflects a long-standing hu...</p></details>
 
 18.<a id="endnote-18"></a>
    Source: reddit.com  

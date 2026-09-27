@@ -855,7 +855,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
 21.<a id="endnote-21"></a>
    Source: scikit-learn.org  
    Link:<a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The effect is depicted by [checking](&amp;#123;&amp;#123; &#x27;checklists/&#x27; | relative_url &amp;#125;&amp;#125;) the statistical performance of the model...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The effect is depicted by [checking]({{ 'checklists/' | relative_url }}) the statistical performance of the model...</p></details>
 
 22.<a id="endnote-22"></a>
    Source: scikit-learn.org  

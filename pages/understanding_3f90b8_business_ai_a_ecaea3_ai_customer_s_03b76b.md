@@ -901,7 +901,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
    Source: bluetweak.com  
    Title: ai use cases in customer service  
    Link:<a href="https://bluetweak.com/blog/ai-use-cases-in-customer-service/" target="_blank" rel="noopener noreferrer nofollow">https://bluetweak.com/blog/ai-use-cases-in-customer-service/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Customer Service Use Cases (2026)2 Oct 2025 — 12 impactful AI use cases in customer service (chatbots, [agent assist](&amp;#123;&amp;#123; &#x27;agent-assist/&#x27; | relative_url &amp;#125;&amp;#125;), multilingu...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Customer Service Use Cases (2026)2 Oct 2025 — 12 impactful AI use cases in customer service (chatbots, [agent assist]({{ 'agent-assist/' | relative_url }}), multilingu...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: evly.ai  

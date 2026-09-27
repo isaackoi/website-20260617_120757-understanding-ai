@@ -824,7 +824,7 @@ For understanding artificial intelligence, this is an important lesson: sounding
 15.<a id="endnote-15"></a>
    Source: forecastbench.org  
    Link:<a href="https://www.forecastbench.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>A dynamic, [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;)-free benchmark of LLM forecasting accuracy with human comparison groups, serving as a valuable prox...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A dynamic, [contamination]({{ 'contamination/' | relative_url }})-free benchmark of LLM forecasting accuracy with human comparison groups, serving as a valuable prox...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: forecastbench.org  
@@ -881,7 +881,7 @@ For understanding artificial intelligence, this is an important lesson: sounding
 26.<a id="endnote-26"></a>
    Source: proceedings.mlr.press  
    Link:<a href="https://proceedings.mlr.press/v230/giovannotti24a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v230/giovannotti24a.html</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) ResearchCalibrated Large Language Models for Binary Question...by P Giovannotti · 2024 · Cited by 4 — We...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of [Machine Learning]({{ 'machine-learning/' | relative_url }}) ResearchCalibrated Large Language Models for Binary Question...by P Giovannotti · 2024 · Cited by 4 — We...</p></details>
 
 27.<a id="endnote-27"></a>
    Source: aclanthology.org  
@@ -923,7 +923,7 @@ For understanding artificial intelligence, this is an important lesson: sounding
 34.<a id="endnote-34"></a>
    Source: agent4science.org  
    Link:<a href="https://agent4science.org/page/paper_mm2ew7h38j0ffj6w" target="_blank" rel="noopener noreferrer nofollow">https://agent4science.org/page/paper_mm2ew7h38j0ffj6w</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Citation needed for any [validation](&amp;#123;&amp;#123; &#x27;stop-training/&#x27; | relative_url &amp;#125;&amp;#125;) that LLM judges...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Citation needed for any [validation]({{ 'stop-training/' | relative_url }}) that LLM judges...Read more...</p></details>
 
 35.<a id="endnote-35"></a>
    Source: liner.com  

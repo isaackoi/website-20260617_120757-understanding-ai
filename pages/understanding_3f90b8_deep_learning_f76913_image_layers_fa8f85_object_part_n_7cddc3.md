@@ -856,7 +856,7 @@ For dog classification, the network's success comes not from discovering a magic
 20.<a id="endnote-20"></a>
    Source: youtube.com  
    Link:<a href="https://www.youtube.com/watch?v=zfiSAzpy9NM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zfiSAzpy9NM</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Network dissection feature visualization neural network object parts But what is a neural network? | [Deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) chapter 1 3Blue1Brown...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Network dissection feature visualization neural network object parts But what is a neural network? | [Deep learning]({{ 'deep-learning/' | relative_url }}) chapter 1 3Blue1Brown...</p></details>
 
 21.<a id="endnote-21"></a>
    Source: researchgate.net  

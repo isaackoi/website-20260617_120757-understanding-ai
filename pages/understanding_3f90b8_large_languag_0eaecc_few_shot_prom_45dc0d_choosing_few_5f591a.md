@@ -941,13 +941,13 @@ A concise prompt containing four carefully chosen demonstrations often works bet
 
 14.<a id="endnote-14"></a>
    Source: anthropic.com  
-   Title: prompting [long context](&#123;&#123; 'long-context-cost/' | relative_url &#125;&#125;)  
+   Title: prompting [long context]({{ 'long-context-cost/' | relative_url }})  
    Link:<a href="https://www.anthropic.com/news/prompting-long-context" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompting-long-context</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for Claude&#x27;s long context window23 Sept 2023 — Our goal with this experiment is to evaluate techniques to maximize Cla...</p></details>
 
 15.<a id="endnote-15"></a>
    Source: dev.to  
-   Title: 5 prompt engineering patterns that actually work in [production](&#123;&#123; 'retrieval-failures/' | relative_url &#125;&#125;) 4mcj  
+   Title: 5 prompt engineering patterns that actually work in [production]({{ 'retrieval-failures/' | relative_url }}) 4mcj  
    Link:<a href="https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>DEV Community5 Prompt Engineering Patterns That Actually Work in...9 Mar 2026 — Use Few-Shot Examples to Lock In Format. System prompts...</p></details>
 
@@ -975,7 +975,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
 20.<a id="endnote-20"></a>
    Source: Wikipedia  
    Link:<a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation]({{ 'routes/' | relative_url }}) applications, email services, office suites, online vid...</p></details>
 
 21.<a id="endnote-21"></a>
    Source: facebook.com  
@@ -992,7 +992,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
 23.<a id="endnote-23"></a>
    Source: github.com  
    Link:<a href="https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning and [In-Context Learning](&amp;#123;&amp;#123; &#x27;in-context-learning/&#x27; | relative_url &amp;#125;&amp;#125;) TutorialEdge cases: Include examples of unusual or difficult cases. Prompt Engineering: Clear i...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning and [In-Context Learning]({{ 'in-context-learning/' | relative_url }}) TutorialEdge cases: Include examples of unusual or difficult cases. Prompt Engineering: Clear i...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: matillion.com  

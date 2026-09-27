@@ -824,7 +824,7 @@ At the same time, the existence of sycophancy demonstrates that alignment is not
    Source: deploymentsafety.openai.com  
    Title: long form biological risk questions  
    Link:<a href="https://deploymentsafety.openai.com/gpt-5/long-form-biological-risk-questions" target="_blank" rel="noopener noreferrer nofollow">https://deploymentsafety.openai.com/gpt-5/long-form-biological-risk-questions</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Using conversations representative of [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;) data, we evaluated model responses...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Using conversations representative of [production]({{ 'retrieval-failures/' | relative_url }}) data, we evaluated model responses...Read more...</p></details>
 
 14.<a id="endnote-14"></a>
    Source: nature.com  

@@ -807,7 +807,7 @@ Dataset datasheets and model documentation help organisations make that judgemen
 5.<a id="endnote-5"></a>
    Source: jmir.org  
    Link:<a href="https://www.jmir.org/2024/1/e51409/" target="_blank" rel="noopener noreferrer nofollow">https://www.jmir.org/2024/1/e51409/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation Study of Multiple [Use Cases](&amp;#123;&amp;#123; &#x27;use-cases/&#x27; | relative_url &amp;#125;&amp;#125;) Across Different...by P Cabanillas Silva · 2024 · Cited by 16 — This study aimed to assess th...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation Study of Multiple [Use Cases]({{ 'use-cases/' | relative_url }}) Across Different...by P Cabanillas Silva · 2024 · Cited by 16 — This study aimed to assess th...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: nist.gov  
@@ -906,7 +906,7 @@ Dataset datasheets and model documentation help organisations make that judgemen
 
 23.<a id="endnote-23"></a>
    Source: aclu-mn.org  
-   Title: biased technology [automated](&#123;&#123; 'decisions/' | relative_url &#125;&#125;) discrimination facial recognition  
+   Title: biased technology [automated]({{ 'decisions/' | relative_url }}) discrimination facial recognition  
    Link:<a href="https://www.aclu-mn.org/news/biased-technology-automated-discrimination-facial-recognition/" target="_blank" rel="noopener noreferrer nofollow">https://www.aclu-mn.org/news/biased-technology-automated-discrimination-facial-recognition/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Biased Technology: The Automated Discrimination...29 Feb 2024 — The error rate for light-skinned men is 0.8%, compared to 34.7% for dark...</p></details>
 

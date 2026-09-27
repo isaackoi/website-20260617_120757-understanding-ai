@@ -932,7 +932,7 @@ The central lesson is that production AI does not merely require access to infor
 
 18.<a id="endnote-18"></a>
    Source: eab-compliance.eu  
-   Title: EAB Compliance [EU AI Act](&#123;&#123; 'eu-ai-act/' | relative_url &#125;&#125;) Compliance Platform · EAB Compliance  
+   Title: EAB Compliance [EU AI Act]({{ 'eu-ai-act/' | relative_url }}) Compliance Platform · EAB Compliance  
    Link:<a href="https://www.eab-compliance.eu/" target="_blank" rel="noopener noreferrer nofollow">https://www.eab-compliance.eu/</a>  
 
 19.<a id="endnote-19"></a>

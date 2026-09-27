@@ -885,4 +885,4 @@ The finding that different attention maps can produce the same answer is one of 
 27.<a id="endnote-27"></a>
    Source: researchgate.net  
    Link:<a href="https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>We show that even when reliable [adversarial](&amp;#123;&amp;#123; &#x27;stress-tests/&#x27; | relative_url &amp;#125;&amp;#125;) distributions can be found, they...Read more...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We show that even when reliable [adversarial]({{ 'stress-tests/' | relative_url }}) distributions can be found, they...Read more...</p></details>

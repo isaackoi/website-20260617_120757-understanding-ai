@@ -778,7 +778,7 @@ For understanding artificial intelligence, this is a significant lesson. The fut
 5.<a id="endnote-5"></a>
    Source: forecastbench.org  
    Link:<a href="https://www.forecastbench.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBenchA dynamic, [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;)-free benchmark of LLM forecasting accuracy with human comparison groups, serving as a...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBenchA dynamic, [contamination]({{ 'contamination/' | relative_url }})-free benchmark of LLM forecasting accuracy with human comparison groups, serving as a...</p></details>
 
 6.<a id="endnote-6"></a>
    Source: Wikipedia  

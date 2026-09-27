@@ -830,7 +830,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
 
 6.<a id="endnote-6"></a>
    Source: aiactblog.nl  
-   Title: [Responsible AI](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) Platform Article 14 AI Act: official text and human oversight  
+   Title: [Responsible AI]({{ 'responsible-ai/' | relative_url }}) Platform Article 14 AI Act: official text and human oversight  
    Link:<a href="https://www.aiactblog.nl/en/ai-act/artikel/14" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/14</a>  
 
 ### Additional References
@@ -850,7 +850,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
 9.<a id="endnote-9"></a>
    Source: reddit.com  
    Link:<a href="https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>lot of companies still underestimate what the [EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) is actually changingMay 20, 2026...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>lot of companies still underestimate what the [EU AI Act]({{ 'eu-ai-act/' | relative_url }}) is actually changingMay 20, 2026...</p></details>
    Published: May 20, 2026  
 
 10.<a id="endnote-10"></a>

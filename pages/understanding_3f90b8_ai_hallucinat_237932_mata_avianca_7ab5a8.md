@@ -781,7 +781,7 @@ As a result, the case is often cited as the clearest demonstration that generati
    Source: youtube.com  
    Title: The Day AI Entered The Court | The Lawyer Who Cited Cases That Never Existed  
    Link:<a href="http://www.youtube.com/watch?v=CN8wem678cc" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=CN8wem678cc</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v [Avianca fake](&amp;#123;&amp;#123; &#x27;fake-cases/&#x27; | relative_url &amp;#125;&amp;#125;) case law chatgpt lawyer court Episode 5: The Lawyer Who Let AI Hallucinate His Case — Mata v. Avianca Kwiky...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v [Avianca fake]({{ 'fake-cases/' | relative_url }}) case law chatgpt lawyer court Episode 5: The Lawyer Who Let AI Hallucinate His Case — Mata v. Avianca Kwiky...</p></details>
 
 8.<a id="endnote-8"></a>
    Source: thomsonreuters.com  
@@ -794,7 +794,7 @@ As a result, the case is often cited as the clearest demonstration that generati
    Source: youtube.com  
    Title: Lawyer files Chat GPT DISASTER in COURT (Mata v. Avianca, Inc.)  
    Link:<a href="http://www.youtube.com/watch?v=GExSDY6Wz9Y" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=GExSDY6Wz9Y</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT Fake Cases [Sanctions](&amp;#123;&amp;#123; &#x27;sanctions/&#x27; | relative_url &amp;#125;&amp;#125;) Decision (Mata v. Avianca)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT Fake Cases [Sanctions]({{ 'sanctions/' | relative_url }}) Decision (Mata v. Avianca)...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: youtube.com  
@@ -820,7 +820,7 @@ As a result, the case is often cited as the clearest demonstration that generati
 
 14.<a id="endnote-14"></a>
    Source: network1consulting.com  
-   Title: Beware Fake Facts: AI Hallucination in [Business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;)  
+   Title: Beware Fake Facts: AI Hallucination in [Business]({{ 'business-adoption/' | relative_url }})  
    Link:<a href="https://network1consulting.com/a-lawyer-relied-on-chatgpt-to-draft-legal-briefs-in-mata-v-avianca-resulting-in-the-submission-of-fake-case-law-and-court-sanctions-a-warning-to-verify-ai-outputs-and-understand-their-limits/" target="_blank" rel="noopener noreferrer nofollow">https://network1consulting.com/a-lawyer-relied-on-chatgpt-to-draft-legal-briefs-in-mata-v-avianca-resulting-in-the-submission-of-fake-case-law-and-court-sanctions-a-warning-to-verify-ai-outputs-and-understand-their-limits/</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>network1November 12, 2025...</p></details>
    Published: November 12, 2025  

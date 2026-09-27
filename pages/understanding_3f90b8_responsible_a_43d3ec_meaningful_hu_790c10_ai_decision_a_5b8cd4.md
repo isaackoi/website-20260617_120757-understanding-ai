@@ -849,7 +849,7 @@ For high-risk AI, meaningful human oversight is not proven by the existence of a
 7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2604.03672" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.03672</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Appeals Processor: A [Deep Learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) Approach to Automated Classification of Citizen Appeals in Government ServicesApril 4, 2026...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Appeals Processor: A [Deep Learning]({{ 'deep-learning/' | relative_url }}) Approach to Automated Classification of Citizen Appeals in Government ServicesApril 4, 2026...</p></details>
    Published: April 4, 2026  
 
 8.<a id="endnote-8"></a>

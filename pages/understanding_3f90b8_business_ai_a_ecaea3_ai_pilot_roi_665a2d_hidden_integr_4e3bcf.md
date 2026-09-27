@@ -867,7 +867,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
 2.<a id="endnote-2"></a>
    Source: techradar.com  
    Link:<a href="https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>While organizations deploy large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) to increase productivity and innovation, many overlook critical concerns like security...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>While organizations deploy large [language models]({{ 'language-models/' | relative_url }}) to increase productivity and innovation, many overlook critical concerns like security...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: linkedin.com  

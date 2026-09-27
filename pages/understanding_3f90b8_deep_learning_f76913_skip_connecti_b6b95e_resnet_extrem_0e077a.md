@@ -797,7 +797,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
 18.<a id="endnote-18"></a>
    Source: reddit.com  
    Link:<a href="https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented](&amp;#123;&amp;#123; &#x27;fake-citations-d81942/&#x27; | relative_url &amp;#125;&amp;#125;) to solve the degradation problem that has been empirical...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented]({{ 'fake-citations-d81942/' | relative_url }}) to solve the degradation problem that has been empirical...</p></details>
 
 19.<a id="endnote-19"></a>
    Source: scribd.com  

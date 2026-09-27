@@ -762,7 +762,7 @@ In the history of artificial intelligence, attention's most important legacy may
 3.<a id="endnote-3"></a>
    Source: Wikipedia  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) architecture known as the transformer, based on the attention mechanism...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning]({{ 'deep-learning/' | relative_url }}) architecture known as the transformer, based on the attention mechanism...</p></details>
 
 4.<a id="endnote-4"></a>
    Source: arxiv.org  
@@ -788,7 +788,7 @@ In the history of artificial intelligence, attention's most important legacy may
 
 8.<a id="endnote-8"></a>
    Source: Wikipedia  
-   Title: Attention ([machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;))  
+   Title: Attention ([machine learning]({{ 'machine-learning/' | relative_url }}))  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention (machine learning)In machine learning, attention is a method that determines the importance of each component in a sequence...</p></details>
 
@@ -806,7 +806,7 @@ In the history of artificial intelligence, attention's most important legacy may
 
 11.<a id="endnote-11"></a>
    Source: Wikipedia  
-   Title: [Generative](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) pre trained transformer  
+   Title: [Generative]({{ 'generative-ai/' | relative_url }}) pre trained transformer  
    Link:<a href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Generative_pre-trained_transformer</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative pre-trained transformerGPTs are primarily used to generate text, but can be trained to generate other kinds of data. For ex...</p></details>
 

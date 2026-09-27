@@ -820,7 +820,7 @@ A modern large language model is still a deep neural network. It learns from dat
    Source: Wikipedia  
    Title: Transformer (deep learning)  
    Link:<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is an artificial neural network architecture based on the [multi-head](&amp;#123;&amp;#123; &#x27;multi-heads/&#x27; | relative_url &amp;#125;&amp;#125;) atte...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is an artificial neural network architecture based on the [multi-head]({{ 'multi-heads/' | relative_url }}) atte...</p></details>
 
 14.<a id="endnote-14"></a>
    Source: medium.com  

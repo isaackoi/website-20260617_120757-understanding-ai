@@ -888,7 +888,7 @@ This generation loop may appear simple, but it is the mechanism that turns next-
 26.<a id="endnote-26"></a>
    Source: huggingface.co  
    Link:<a href="https://huggingface.co/docs/transformers/v4.53.2/llm_optims" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/v4.53.2/llm_optims</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceOptimizing inferenceOn top of the memory requirements, [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;) is slow because LLMs are called repeatedly to generate the n...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceOptimizing inferenceOn top of the memory requirements, [inference]({{ 'inference-test/' | relative_url }}) is slow because LLMs are called repeatedly to generate the n...</p></details>
 
 27.<a id="endnote-27"></a>
    Source: huggingface.co  

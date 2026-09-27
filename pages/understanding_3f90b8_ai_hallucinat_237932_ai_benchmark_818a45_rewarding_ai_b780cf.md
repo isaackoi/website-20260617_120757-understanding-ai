@@ -775,7 +775,7 @@ In the broader effort to understand artificial intelligence, this represents a s
 
 4.<a id="endnote-4"></a>
    Source: businessinsider.com  
-   Title: [Business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) Insider Why AI chatbots hallucinate, according to Open AI researchers  
+   Title: [Business]({{ 'business-adoption/' | relative_url }}) Insider Why AI chatbots hallucinate, according to Open AI researchers  
    Link:<a href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</p></details>
 

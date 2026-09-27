@@ -1103,7 +1103,7 @@ The best way to understand deep learning is therefore neither as magic nor as me
 66.<a id="endnote-66"></a>
    Source: youtu.be  
    Link:<a href="https://youtu.be/FDF_Q3_98GQ" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/FDF_Q3_98GQ</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;[Overfitting](&amp;#123;&amp;#123; &#x27;overfitting/&#x27; | relative_url &amp;#125;&amp;#125;) vs Underfitting: [https://youtu.be/B9rhzg6_LLw](https://youtu.be/B9rhzg6_LLw) Why Models Overfit and Underfit - The Bias Variance Trade-off: [https://youtu.be...&quot;](h...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;[Overfitting]({{ 'overfitting/' | relative_url }}) vs Underfitting: [https://youtu.be/B9rhzg6_LLw](https://youtu.be/B9rhzg6_LLw) Why Models Overfit and Underfit - The Bias Variance Trade-off: [https://youtu.be...&quot;](h...</p></details>
 
 67.<a id="endnote-67"></a>
    Source: youtu.be  

@@ -803,7 +803,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
 
 10.<a id="endnote-10"></a>
    Source: hbs.edu  
-   Title: Harvard [Business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) School Cyborgs, Centaurs and Self- Automators: The Three Modes  
+   Title: Harvard [Business]({{ 'business-adoption/' | relative_url }}) School Cyborgs, Centaurs and Self- Automators: The Three Modes  
    Link:<a href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</p></details>
    Published: December 11, 2025  

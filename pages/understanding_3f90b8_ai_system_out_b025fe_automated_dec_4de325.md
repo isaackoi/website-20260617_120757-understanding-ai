@@ -865,7 +865,7 @@ Modern AI governance increasingly treats oversight as a design requirement rathe
    Source: airc.nist.gov  
    Title: 5 sec core  
    Link:<a href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/5-sec-core/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>RMF Core - AIRC - NIST AI Resource CenterThe AI RMF Core provides outcomes and actions that enable dialogue, [understanding](&amp;#123;&amp;#123; &#x27;understanding/&#x27; | relative_url &amp;#125;&amp;#125;), and activitie...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>RMF Core - AIRC - NIST AI Resource CenterThe AI RMF Core provides outcomes and actions that enable dialogue, [understanding]({{ 'understanding/' | relative_url }}), and activitie...</p></details>
 
 12.<a id="endnote-12"></a>
    Source: airc.nist.gov  

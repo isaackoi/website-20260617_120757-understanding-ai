@@ -869,7 +869,7 @@ The strongest implementations treat escalation as a continuation of the same con
 
 13.<a id="endnote-13"></a>
    Source: tomsguide.com  
-   Title: Tom's Guide The 5 fastest ways to get past [AI customer](&#123;&#123; 'service-ai/' | relative_url &#125;&#125;) service chatbots  
+   Title: Tom's Guide The 5 fastest ways to get past [AI customer]({{ 'service-ai/' | relative_url }}) service chatbots  
    Link:<a href="https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more" target="_blank" rel="noopener noreferrer nofollow">https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>As AI-powered systems become more common—and often more frustrating—five key methods stood out: 1. **Use Trigger Words**: Saying &quot;agent,&quot;...</p></details>
 

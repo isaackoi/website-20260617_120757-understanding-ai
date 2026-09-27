@@ -801,7 +801,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
 2.<a id="endnote-2"></a>
    Source: nvlpubs.nist.gov  
    Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 222 — [Documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) can enhance...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 222 — [Documentation]({{ 'paper-safety/' | relative_url }}) can enhance...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: airc.nist.gov  
@@ -873,7 +873,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
    Source: underdefense.com  
    Title: ai risk management  
    Link:<a href="https://underdefense.com/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://underdefense.com/blog/ai-risk-management/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI, Agentic Risks &amp; NIST Implementation PlaybookApr 24, 2026 — Implement confidence scoring: flag [AI outputs](&amp;#123;&amp;#123; &#x27;ai-outputs/&#x27; | relative_url &amp;#125;&amp;#125;) below 85% confidence...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI, Agentic Risks &amp; NIST Implementation PlaybookApr 24, 2026 — Implement confidence scoring: flag [AI outputs]({{ 'ai-outputs/' | relative_url }}) below 85% confidence...</p></details>
 
 16.<a id="endnote-16"></a>
    Source: assets.publishing.service.gov.uk  

@@ -944,7 +944,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
 
 24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Title: But what is a GPT? Visual intro to transformers | Chapter 5, [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;)  
+   Title: But what is a GPT? Visual intro to transformers | Chapter 5, [Deep Learning]({{ 'deep-learning/' | relative_url }})  
    Link:<a href="https://www.youtube.com/watch?v=wjZofJX0v4M" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wjZofJX0v4M</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs Are Classifiers: How Language Models Predict the Next Token - YouTube LLMs Are Classifiers: How Language Models Predict the Next Tok...</p></details>
 

@@ -811,7 +811,7 @@ Modern chatbots therefore owe their existence to an unexpected historical transi
    Source: Wikipedia  
    Title: Open AI  
    Link:<a href="https://en.wikipedia.org/wiki/OpenAI" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/OpenAI</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAIOpenAI Group PBC, doing [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) as OpenAI, is an American artificial intelligence (AI) research organization headquartered in S...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAIOpenAI Group PBC, doing [business]({{ 'business-adoption/' | relative_url }}) as OpenAI, is an American artificial intelligence (AI) research organization headquartered in S...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: dmqa.korea.ac.kr  
@@ -869,7 +869,7 @@ Modern chatbots therefore owe their existence to an unexpected historical transi
 23.<a id="endnote-23"></a>
    Source: Wikipedia  
    Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) architecture known as the transformer, based on the attention mechan...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning]({{ 'deep-learning/' | relative_url }}) architecture known as the transformer, based on the attention mechan...</p></details>
 
 24.<a id="endnote-24"></a>
    Source: research.google  

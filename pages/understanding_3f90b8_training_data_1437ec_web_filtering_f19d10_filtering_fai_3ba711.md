@@ -790,7 +790,7 @@ The fairness tradeoff therefore lies in recognising that quality control and rep
 2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/html/2501.10383v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2501.10383v1</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>The [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) Ethics Playbook17 Dec 2024 — In the C4 dataset, they filter out documents containing “bad words”, which has a side effe...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The [Generative AI]({{ 'generative-ai/' | relative_url }}) Ethics Playbook17 Dec 2024 — In the C4 dataset, they filter out documents containing “bad words”, which has a side effe...</p></details>
 
 3.<a id="endnote-3"></a>
    Source: researchgate.net  
@@ -815,7 +815,7 @@ The fairness tradeoff therefore lies in recognising that quality control and rep
 7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Link:<a href="https://arxiv.org/abs/2602.00497" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.00497</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>Culturally-Grounded Governance for [Multilingual](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) Language Models: Rights, Data Boundaries, and Accountable AI DesignJanuary 31, 2026...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Culturally-Grounded Governance for [Multilingual]({{ 'language-bias/' | relative_url }}) Language Models: Rights, Data Boundaries, and Accountable AI DesignJanuary 31, 2026...</p></details>
    Published: January 31, 2026  
 
 8.<a id="endnote-8"></a>

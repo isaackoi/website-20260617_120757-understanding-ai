@@ -841,7 +841,7 @@ In this sense, the problem is not that the model learns incorrectly. The problem
 
 15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Title: [Understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) Recommendation Algorithms and Filter Bubbles  
+   Title: [Understanding]({{ 'understanding/' | relative_url }}) Recommendation Algorithms and Filter Bubbles  
    Link:<a href="https://www.youtube.com/watch?v=5U9ghbdzBaM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5U9ghbdzBaM</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>Intro to Data Science: Recommendation Systems...</p></details>
 
@@ -865,7 +865,7 @@ In this sense, the problem is not that the model learns incorrectly. The problem
    Source: newamerica.org  
    Title: case study youtube  
    Link:<a href="https://www.newamerica.org/insights/why-am-i-seeing-this/case-study-youtube/" target="_blank" rel="noopener noreferrer nofollow">https://www.newamerica.org/insights/why-am-i-seeing-this/case-study-youtube/</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>New AmericaCase Study: YouTube2 Mar 2020 — Today, YouTube&#x27;s recommendation system is [responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) for generating over 70 percent of viewin...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>New AmericaCase Study: YouTube2 Mar 2020 — Today, YouTube&#x27;s recommendation system is [responsible]({{ 'responsible-ai/' | relative_url }}) for generating over 70 percent of viewin...</p></details>
 
 20.<a id="endnote-20"></a>
    Source: pmc.ncbi.nlm.nih.gov  

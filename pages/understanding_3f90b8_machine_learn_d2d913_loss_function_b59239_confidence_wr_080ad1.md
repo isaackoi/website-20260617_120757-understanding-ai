@@ -825,7 +825,7 @@ Because training repeatedly minimises this loss, the model gradually learns to r
 12.<a id="endnote-12"></a>
    Source: medium.com  
    Link:<a href="https://medium.com/%40chris.p.hughes10/a-brief-overview-of-cross-entropy-loss-523aa56b75d5" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40chris.p.hughes10/a-brief-overview-of-cross-entropy-loss-523aa56b75d5</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>A Brief Overview of Cross Entropy Loss | by Chris HughesCross entropy loss is a mechanism to quantify how well a model&#x27;s [prediction](&amp;#123;&amp;#123; &#x27;error-harms/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Brief Overview of Cross Entropy Loss | by Chris HughesCross entropy loss is a mechanism to quantify how well a model&#x27;s [prediction]({{ 'error-harms/' | relative_url }})...</p></details>
 
 13.<a id="endnote-13"></a>
    Source: linkedin.com  
@@ -908,7 +908,7 @@ Because training repeatedly minimises this loss, the model gradually learns to r
 
 27.<a id="endnote-27"></a>
    Source: ml-cheatsheet.readthedocs.io  
-   Title: ML Cheatsheet Loss Functions — ML Glossary [documentation](&#123;&#123; 'paper-safety/' | relative_url &#125;&#125;)  
+   Title: ML Cheatsheet Loss Functions — ML Glossary [documentation]({{ 'paper-safety/' | relative_url }})  
    Link:<a href="https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html" target="_blank" rel="noopener noreferrer nofollow">https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>ML CheatsheetLoss Functions — ML Glossary documentation - Read the DocsCross-entropy loss, or log loss, measures the performance of a cla...</p></details>
 

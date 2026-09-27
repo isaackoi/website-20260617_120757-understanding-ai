@@ -804,7 +804,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
 9.<a id="endnote-9"></a>
    Source: aiaaic.org  
    Link:<a href="https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation" target="_blank" rel="noopener noreferrer nofollow">https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation</a>  
-<details class="endnote-snippet"><summary>Source snippet</summary><p>C4 datasetAI text detector [language bias](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) ・ hur ethnic minority analytics Tesla ・ generates inaccurate, racist, homophobic and offensive r...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>C4 datasetAI text detector [language bias]({{ 'language-bias/' | relative_url }}) ・ hur ethnic minority analytics Tesla ・ generates inaccurate, racist, homophobic and offensive r...</p></details>
 
 10.<a id="endnote-10"></a>
    Source: code4rena.com  
@@ -822,7 +822,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
 
 13.<a id="endnote-13"></a>
    Source: proceedings.neurips.cc  
-   Title: 1c6bed78d3813886d3d72595dbecb80b Paper Datasets and [Benchmarks](&#123;&#123; 'benchmarks/' | relative_url &#125;&#125;)  
+   Title: 1c6bed78d3813886d3d72595dbecb80b Paper Datasets and [Benchmarks]({{ 'benchmarks/' | relative_url }})  
    Link:<a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf</a>  
 <details class="endnote-snippet"><summary>Source snippet</summary><p>C4: An Open, Billion-scale Corpus of Images...by W Zhu · 2023 · Cited by 269 — Multimodal C4 (mmc4), a public, billion-scale image-text...</p></details>
 

@@ -751,7 +751,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
 
 8.<a id="endnote-8"></a>
    Source: youtube.com  
-   Title: Dissecting Racial Bias in an Algorithm that Guides Health [Decisions](&#123;&#123; 'decisions/' | relative_url &#125;&#125;) for Millions  
+   Title: Dissecting Racial Bias in an Algorithm that Guides Health [Decisions]({{ 'decisions/' | relative_url }}) for Millions  
    Link:<a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
 
 9.<a id="endnote-9"></a>
