@@ -3,6 +3,7 @@ layout: default
 title: Branchoria
 permalink: /
 home: true
+last_modified_at: 2026-09-22
 homepage_audience_mode: production
 homepage_copy_policy: polished
 output_language: English
@@ -174,6 +175,8 @@ site_image_description: A person studies a laptop showing a network of connected
 ---
 
 <section class="home-adaptive-home home-adaptive-home--indexed-hierarchy" data-home-archetype="indexed-hierarchy" data-home-level-1-count="1" data-home-level-1-tier="solo" data-home-top-child-tier="many" data-home-max-breadth="180" data-home-max-depth="3">
+
+<h1 class="home-structure-intro-title">AI Sense</h1>
 <section id="home-full-index" class="home-mode-panel is-active home-adaptive-secondary" data-home-mode-panel="vertical" data-home-mode-label="Topic view">
 <section id="home-vertical-view" class="home-hierarchy-band home-vertical-shell" data-home-vertical-map data-home-vertical-l1-count="12" data-home-vertical-top-count="1">
 <div class="home-vertical-actions" role="group" aria-label="Topic view controls">
