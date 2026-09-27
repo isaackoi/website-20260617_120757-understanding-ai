@@ -4,7 +4,7 @@ title_full: Search Ranking Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-ai-system-out/
+permalink: /understanding-3f90b8-ai-system-out-search-ranking/
 description: Focused pages that expand on Search Ranking.
 date: '2026'
 layout: default

@@ -4,7 +4,7 @@ title_full: Sycophancy Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-training-data/
+permalink: /understanding-3f90b8-training-data-sycophancy/
 description: Focused pages that expand on Sycophancy.
 date: '2026'
 layout: default

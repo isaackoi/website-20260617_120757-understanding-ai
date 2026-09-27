@@ -4,7 +4,7 @@ title_full: Biased data Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-machine-learn/
+permalink: /understanding-3f90b8-machine-learn-biased-data/
 description: Focused pages that expand on Biased data.
 date: '2026'
 layout: default

@@ -4,7 +4,7 @@ title_full: Shadow AI Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-business-ai-a/
+permalink: /understanding-3f90b8-business-ai-a-shadow-ai/
 description: Focused pages that expand on Shadow AI.
 date: '2026'
 layout: default

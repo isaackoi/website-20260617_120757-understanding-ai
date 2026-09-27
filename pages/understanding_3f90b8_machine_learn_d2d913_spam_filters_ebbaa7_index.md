@@ -4,7 +4,7 @@ title_full: Spam filters Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-machine-learn/
+permalink: /understanding-3f90b8-machine-learn-spam-filters/
 description: Focused pages that expand on Spam filters.
 date: '2026'
 layout: default

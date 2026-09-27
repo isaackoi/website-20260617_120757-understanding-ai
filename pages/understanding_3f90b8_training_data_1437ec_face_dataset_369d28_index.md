@@ -4,7 +4,7 @@ title_full: Face Bias Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-training-data/
+permalink: /understanding-3f90b8-training-data-face-bias/
 description: Focused pages that expand on Face Bias.
 date: '2026'
 layout: default

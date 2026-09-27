@@ -4,7 +4,7 @@ title_full: AI Search Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-everyday-ai-u/
+permalink: /understanding-3f90b8-everyday-ai-u-ai-search/
 description: Focused pages that expand on AI Search.
 date: '2026'
 layout: default

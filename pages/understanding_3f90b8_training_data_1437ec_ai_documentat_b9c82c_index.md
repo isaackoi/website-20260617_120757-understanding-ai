@@ -4,7 +4,7 @@ title_full: Model Cards Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-training-data/
+permalink: /understanding-3f90b8-training-data-model-cards/
 description: Focused pages that expand on Model Cards.
 date: '2026'
 layout: default

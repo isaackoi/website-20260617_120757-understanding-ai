@@ -4,7 +4,7 @@ title_full: Human Review Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-responsible-a/
+permalink: /understanding-3f90b8-responsible-a-human-review/
 description: Focused pages that expand on Human Review.
 date: '2026'
 layout: default

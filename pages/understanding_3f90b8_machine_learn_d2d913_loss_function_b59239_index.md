@@ -4,7 +4,7 @@ title_full: Loss functions Sub-Topic Index
 display_title: Sub-Topic Index
 display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
-permalink: /understanding-3f90b8-machine-learn/
+permalink: /understanding-3f90b8-machine-learn-loss-functions/
 description: Focused pages that expand on Loss functions.
 date: '2026'
 layout: default
