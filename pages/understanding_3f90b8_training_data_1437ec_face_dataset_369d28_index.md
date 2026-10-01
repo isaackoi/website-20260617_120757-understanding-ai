@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-training-data-face-bias/
 description: Focused pages that expand on Face Bias.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_training_data_1437ec_face_dataset_369d28
 parent_title: Face Bias
