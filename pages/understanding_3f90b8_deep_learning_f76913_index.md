@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-deep-learning/
 description: Focused pages that expand on Deep Learning.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_deep_learning_f76913
 parent_title: Deep Learning

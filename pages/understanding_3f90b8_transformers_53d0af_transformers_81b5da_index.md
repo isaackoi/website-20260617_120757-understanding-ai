@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-transformers-beyond-text/
 description: Focused pages that expand on Beyond text.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_transformers_53d0af_transformers_81b5da
 parent_title: Beyond text

@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-training-data-sycophancy/
 description: Focused pages that expand on Sycophancy.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_training_data_1437ec_rlhf_sycophan_cfee54
 parent_title: Sycophancy
