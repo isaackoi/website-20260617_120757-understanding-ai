@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-business-ai-a-data-readiness/
 description: Focused pages that expand on Data Readiness.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258
 parent_title: Data Readiness

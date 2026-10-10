@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-everyday-ai-u/
 description: Focused pages that expand on Use Cases.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_everyday_ai_u_c3e17f
 parent_title: Use Cases

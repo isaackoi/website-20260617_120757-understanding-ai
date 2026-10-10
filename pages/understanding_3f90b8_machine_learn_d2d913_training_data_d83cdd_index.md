@@ -6,7 +6,7 @@ display_title_short: Sub-Topic Index
 nav_short_title: Sub-Topic Index
 permalink: /understanding-3f90b8-machine-learn-training-data/
 description: Focused pages that expand on Training data.
-date: '2026'
+date: '2026-01-01 00:00:00'
 layout: default
 parent_basename: understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd
 parent_title: Training data
